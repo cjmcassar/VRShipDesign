@@ -35,6 +35,7 @@ namespace poisins.core
         private string currentPath;
 
         private static FileBrowserView _instance;
+
         public static FileBrowserView Instance
         {
             get
@@ -239,15 +240,14 @@ namespace poisins.core
         // This calls on the obj importer once the filebrowser recognises a file being clicked
         public void OpenFileButtonClick()
         {
-            if (!string.IsNullOrEmpty(OpenFilePath) &&
-                FileBrowser.BrowserCallback != null)
-                FileBrowser.BrowserCallback(OpenFilePath); 
-                            
-                
-                objImporter.ImportModelAsync("My Object", OpenFilePath, null, importOptions);
-                
+            if (!string.IsNullOrEmpty(OpenFilePath) && FileBrowser.BrowserCallback != null)
+
+            FileBrowser.BrowserCallback(OpenFilePath);
+            objImporter.ImportModelAsync("MyObject", OpenFilePath, null, importOptions);
 
         }
+
+
 
     }
 
