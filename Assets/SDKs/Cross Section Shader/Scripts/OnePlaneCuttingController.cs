@@ -27,4 +27,7 @@ public class OnePlaneCuttingController : MonoBehaviour {
         rend.material.SetVector("_PlaneNormal", normal);
         rend.material.SetVector("_PlanePosition", position);
     }
+
+    // ToDo automatically attach the material to the script
+
 }
