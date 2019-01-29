@@ -19,11 +19,11 @@ public class AttachShaderScript : MonoBehaviour
     private void AttachScript()
     {
         FindObject();
-        if (myObject.name == "MyObject" && !myObject.GetComponent<OnePlaneCuttingController>())
+        if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>())
         {
-            myObject.AddComponent<OnePlaneCuttingController>();
+            myObject.AddComponent<OnePlaneCuttingControllerVR>();
         }
-        else if (myObject.name != "MyObject" && !myObject.GetComponent<OnePlaneCuttingController>())
+        else if (myObject.name != "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>())
         {
             print("Object has script already");
             return;
@@ -35,10 +35,10 @@ public class AttachShaderScript : MonoBehaviour
 
     private void FindObject()
     {
-        myObject = GameObject.Find("MyObject");
+        myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
 
     }
 
-
+    //TODO figure out a way to choose object layer through GUI
 }
 

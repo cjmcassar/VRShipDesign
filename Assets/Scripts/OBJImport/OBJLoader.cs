@@ -56,6 +56,7 @@ public class OBJLoader
         }
         return new Vector2(x, y);
     }
+
     public static Color ParseColorFromCMPS(string[] cmps,float scalar = 1.0f)
     {
         float Kr = float.Parse(cmps[1]) * scalar ;
@@ -81,6 +82,7 @@ public class OBJLoader
 
         return null;
     }
+
     public static Material[] LoadMTLFile(string fn)
     {
         Material currentMaterial = null;

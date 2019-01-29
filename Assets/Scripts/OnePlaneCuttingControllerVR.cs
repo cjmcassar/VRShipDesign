@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 //[ExecuteInEditMode]
-public class OnePlaneCuttingController : MonoBehaviour {
+public class OnePlaneCuttingControllerVR : MonoBehaviour {
 
     public GameObject plane;
     Material mat;
@@ -28,7 +28,11 @@ public class OnePlaneCuttingController : MonoBehaviour {
         rend.material.SetVector("_PlanePosition", position);
     }
 
-    // ToDo automatically attach the material to the script
+    // ToDo automatically attach the renderer to the script
+
+    //TODO attach plane (quad) automatically to the script
+
+    
 
 
 }
