@@ -4,6 +4,7 @@ using System.Collections;
 public class OnePlaneCuttingControllerVR : MonoBehaviour {
 
     public GameObject plane;
+    private GameObject myObject;
     Material mat;
     public Vector3 normal;
     public Vector3 position;
@@ -20,17 +21,15 @@ public class OnePlaneCuttingControllerVR : MonoBehaviour {
         UpdateShaderProperties();
     }
 
-    private void UpdateShaderProperties()
+    private void UpdateShaderProperties ()
     {
+        plane = GameObject.Find("Quad"); // finds the plane object in the scene and attaches it to the script
         normal = plane.transform.TransformVector(new Vector3(0, 0, -1));
         position = plane.transform.position;
         rend.material.SetVector("_PlaneNormal", normal);
         rend.material.SetVector("_PlanePosition", position);
     }
 
-    // ToDo automatically attach the renderer to the script
-
-    //TODO attach plane (quad) automatically to the script
 
     
 

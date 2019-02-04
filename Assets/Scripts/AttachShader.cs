@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class AttachShaderScript : MonoBehaviour
+public class AttachShader : MonoBehaviour
 {
     public GameObject myObject;
+    
 
     void Update()
     {
@@ -19,11 +20,12 @@ public class AttachShaderScript : MonoBehaviour
     private void AttachScript()
     {
         FindObject();
-        if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>())
+        if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>() && !myObject.GetComponent<AttachMaterial>())
         {
             myObject.AddComponent<OnePlaneCuttingControllerVR>();
+            myObject.AddComponent<AttachMaterial>();
         }
-        else if (myObject.name != "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>())
+        else if (myObject.name != "Layer_0" && myObject.GetComponent<OnePlaneCuttingControllerVR>() && myObject.GetComponent<AttachMaterial>())
         {
             print("Object has script already");
             return;
@@ -32,12 +34,19 @@ public class AttachShaderScript : MonoBehaviour
 
     // FindObject description
     // finds the object after it is in the scene
-
+    // if object is not in the scene then it returns void
     private void FindObject()
     {
-        myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
-
+        if (GameObject.Find("MyObject") != null)
+        {
+            myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
+        }
+        else if (GameObject.Find("MyObject") == null)
+        {
+            return;
+        }
     }
+
 
     //TODO figure out a way to choose object layer through GUI
 }
