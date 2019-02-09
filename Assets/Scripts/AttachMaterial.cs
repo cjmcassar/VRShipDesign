@@ -10,19 +10,24 @@ public class AttachMaterial : MonoBehaviour
     public Material PlaneCutter;
 
 
+<<<<<<< HEAD
 
 
 
     // Update is called once per frame
     void Update()
+=======
+    // OnEnable is called once the object is initiated
+    void OnEnable()
+>>>>>>> 2d1c13256db2689b1a65989dde6068394e018f7d
     {
         AttachPlaneCutter();
         
     }
 
-
-    //Figure out a way to attach the material to the object
-
+    // AttachPlaneCutter Description
+    // Finds the games objects and materials then attaches is to the named object
+    // TODO figure out how to attach it the object that is in the scene
     private void AttachPlaneCutter()
     {
 
@@ -31,9 +36,12 @@ public class AttachMaterial : MonoBehaviour
         PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;         // finds the material in the resources folder and attaches it to the script
         myObject.GetComponentInChildren<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
 
+<<<<<<< HEAD
 
         //TODO there is a bug that seems to be asscociated with the update method... Need to find a way to activate this method ONCE...
 
+=======
+>>>>>>> 2d1c13256db2689b1a65989dde6068394e018f7d
         #region OldCode
         //if (myObject.name == "Layer_0" /*&& myObject.GetComponent<OnePlaneCuttingControllerVR>()*/)
         //{
@@ -45,11 +53,16 @@ public class AttachMaterial : MonoBehaviour
         //    return;
         //}
         #endregion
+<<<<<<< HEAD
 
 
     }
 
    
+=======
+    }
+
+>>>>>>> 2d1c13256db2689b1a65989dde6068394e018f7d
 
 }
 
