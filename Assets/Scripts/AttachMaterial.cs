@@ -13,7 +13,6 @@ public class AttachMaterial : MonoBehaviour
     // Update is called once per frame
  
     void OnEnable()
-
     {
         AttachPlaneCutter();
         
@@ -30,10 +29,7 @@ public class AttachMaterial : MonoBehaviour
         PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;         // finds the material in the resources folder and attaches it to the script
         myObject.GetComponentInChildren<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
 
-
-
         //TODO there is a bug that seems to be asscociated with the update method... Need to find a way to activate this method ONCE...
-
 
         #region OldCode
         //if (myObject.name == "Layer_0" /*&& myObject.GetComponent<OnePlaneCuttingControllerVR>()*/)
@@ -47,10 +43,9 @@ public class AttachMaterial : MonoBehaviour
         //}
         #endregion
 
-
     }
 
-    }
+}
 
 
 
