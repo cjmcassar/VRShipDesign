@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.phdvrshipdesign.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "N:\\Documents\\PhD Project Stuff\\VR Projects\\PhD VR Ship Design - Desktop\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "PhD VR Ship Design [Testing]"
+        }
+      }
+    }
+  ]
+}
