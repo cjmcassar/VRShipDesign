@@ -9,6 +9,7 @@ public class OnePlaneCuttingControllerVR : MonoBehaviour {
     public Vector3 normal;
     public Vector3 position;
     public Renderer rend;
+
     // Use this for initialization
     void Start () {
         rend = GetComponent<Renderer>();
@@ -29,9 +30,4 @@ public class OnePlaneCuttingControllerVR : MonoBehaviour {
         rend.material.SetVector("_PlaneNormal", normal);
         rend.material.SetVector("_PlanePosition", position);
     }
-
-
-    
-
-
 }
