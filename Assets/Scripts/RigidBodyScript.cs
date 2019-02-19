@@ -14,14 +14,10 @@ public class RigidBodyScript : MonoBehaviour {
     public List<GameObject> childrenList = new List<GameObject>();
    
 
-    //void Awake()
-    //{
-    //    AddDecendants();
-    //}
 
-    void OnTransformChildrenChanged()
+    void Start()
     {
-        AddDecendants();
+        Invoke ("AddDecendants", 15);
     }
 
     private void AddDecendants()
@@ -37,6 +33,18 @@ public class RigidBodyScript : MonoBehaviour {
         foreach (Transform child in children)
         {
             childrenList.Add(child.gameObject);
+            //// First we get the Mesh attached to the child object
+            //Mesh mesh = childrenList.gameObject.GetComponent<MeshFilter>().mesh;
+
+            //// If we've found a mesh we can use it to add a collider
+            //if (mesh != null)
+            //{
+            //    // Add a new MeshCollider to the child object
+            //    MeshCollider meshCollider = childObject.gameObject.AddComponent<MeshCollider>();
+
+            //    // Finaly we set the Mesh in the MeshCollider
+            //    meshCollider.sharedMesh = mesh;
+            //}
         }
 
 
@@ -51,14 +59,53 @@ public class RigidBodyScript : MonoBehaviour {
         //go thorugh the list and add the component.
 
 
+        //    // Iterate through all child objects of our Geometry object
+        //    foreach (Transform childObject in transform)
+        //    {
+        //        // First we get the Mesh attached to the child object
+        //        Mesh mesh = childObject.gameObject.GetComponent<MeshFilter>().mesh;
+
+        //        // If we've found a mesh we can use it to add a collider
+        //        if (mesh != null)
+        //        {
+        //            // Add a new MeshCollider to the child object
+        //            MeshCollider meshCollider = childObject.gameObject.AddComponent<MeshCollider>();
+
+        //            // Finaly we set the Mesh in the MeshCollider
+        //            meshCollider.sharedMesh = mesh;
+        //        }
+        //    }
+
+
+
+    
+
+
+
         for (int i = 0; i < childrenList.Count; i++)
         {
-            MeshCollider sc = childrenList[i].AddComponent<MeshCollider>();
-            AddRigidBody();
+            Mesh mesh = childrenList[i].GetComponent<Mesh>();
+            MeshCollider mc = childrenList[i].GetComponent<MeshCollider>();
+            if ( mesh == null)
+            {
+                //mesh = childrenList[i].AddComponent<MeshRenderer>();
+                mc = childrenList[i].AddComponent<MeshCollider>();
+            }
+
+            else if (mesh != null && mc != null)
+            {
+                break;
+            }
+
+            //AddRigidBody();
         }
 
-
         // TODO - Needs to add the rigid body to each child.
+        // Tips:
+        // a) use Start method;
+        // b) use a Invoke or Coroutine with a timer;
+        // c) add an flag inside the update loop to prevent it from running more than once;
+
     }
 
     private void AddRigidBody()
