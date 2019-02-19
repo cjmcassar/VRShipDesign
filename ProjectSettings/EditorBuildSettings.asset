@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: aa624cc88c292094488d2238e2cfbd1f
+  - enabled: 1
+    path: Assets/Scenes/VR Ship.unity
+    guid: d74b115bc0cde76469399b5a9c66bf07

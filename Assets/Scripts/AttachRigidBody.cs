@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-public class AttachShader : MonoBehaviour
+public class AttachRigidBody : MonoBehaviour
 {
+
+
     public GameObject myObject;
-    
+
+    // TODO: add function that attaches to any gameobject loaded in the scene and its children
+    // TODO(cont.): Maybe the function can be an if statement looking for gameobject with the name "myobject"
 
     void Update()
     {
+
         AttachScript();
+
     }
 
     // AttachScript description
@@ -20,12 +25,11 @@ public class AttachShader : MonoBehaviour
     private void AttachScript()
     {
         FindObject();
-        if (myObject.name == "MyObject" && !myObject.GetComponent<OnePlaneCuttingControllerVR>() && !myObject.GetComponent<AttachMaterial>())
+        if (myObject.name == "MyObject" && !myObject.GetComponent<RigidBodyScript>())
         {
-            myObject.AddComponent<OnePlaneCuttingControllerVR>();
-            myObject.AddComponent<AttachMaterial>();
+            myObject.AddComponent<RigidBodyScript>();
         }
-        else if (myObject.name != "MyObject" && myObject.GetComponent<OnePlaneCuttingControllerVR>() && myObject.GetComponent<AttachMaterial>())
+        else if (myObject.name != "MyObject" && myObject.GetComponent<RigidBodyScript>())
         {
             print("Object has script already");
             return;
@@ -47,7 +51,4 @@ public class AttachShader : MonoBehaviour
         }
     }
 
-
-    //TODO figure out a way to choose object layer through GUI
 }
-
