@@ -36,29 +36,27 @@ public class RigidBodyScript : MonoBehaviour
             childrenList.Add(child.gameObject);
         }
 
-        for (int i = 0; i < childrenList.Count; i++)
+        MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        for (int i = 0; i < renderers.Length; i++)
         {
-            Mesh mesh = childrenList[i].GetComponent<Mesh>();
-            MeshCollider mc = childrenList[i].GetComponent<MeshCollider>();
-            Rigidbody rb = childrenList[i].GetComponent<Rigidbody>();
-            if (mesh == null && mc == null && rb == null)
-            {
-                //mesh = childrenList[i].AddComponent<MeshRenderer>();
-                mc = childrenList[i].AddComponent<MeshCollider>();
-                mc.convex = true;
-                rb = childrenList[i].AddComponent<Rigidbody>();
-                rb.useGravity = false;
-                rb.isKinematic = true;
-            }
+            MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
 
-            else if (mesh == null && mc != null && rb != null)
+            if (meshCollider == null)
+            {
+                meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
+                meshCollider.convex = false;
+            }
+        
+
+            else if (meshCollider != null)
             {
                 break;
             }
-
-            
+           
         }
-        // TODO - Needs to add the rigid body to each child.
+        // TODO - Needs to add the rigid body to the parent object (richard's advice..Will test).
+
+
 
 
     }
@@ -104,3 +102,21 @@ public class RigidBodyScript : MonoBehaviour
     //    }
     //}
 }
+
+
+
+
+//for (int i = 0; i < childrenList.Count; i++)
+//{
+//    Mesh mesh = childrenList[i].GetComponent<Mesh>();
+//    MeshCollider mc = childrenList[i].GetComponent<MeshCollider>();
+//    Rigidbody rb = childrenList[i].GetComponent<Rigidbody>();
+//    if (mesh == null && mc == null && rb == null)
+//    {
+//        //mesh = childrenList[i].AddComponent<MeshRenderer>();
+//        //mc = childrenList[i].AddComponent<MeshCollider>();
+//        //mc.convex = true;
+//        rb = childrenList[i].AddComponent<Rigidbody>();
+//        rb.useGravity = false;
+//        rb.isKinematic = true;
+//    }
