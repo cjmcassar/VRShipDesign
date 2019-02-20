@@ -13,9 +13,7 @@ public class AttachRigidBody : MonoBehaviour
 
     void Update()
     {
-
-        AttachScript();
-
+        FindObject();
     }
 
     // AttachScript description
@@ -24,7 +22,7 @@ public class AttachRigidBody : MonoBehaviour
     // if it does then it stops the function
     private void AttachScript()
     {
-        FindObject();
+        
         if (myObject.name == "MyObject" && !myObject.GetComponent<RigidBodyScript>())
         {
             myObject.AddComponent<RigidBodyScript>();
@@ -32,7 +30,7 @@ public class AttachRigidBody : MonoBehaviour
         else if (myObject.name != "MyObject" && myObject.GetComponent<RigidBodyScript>())
         {
             print("Object has script already");
-            return;
+
         }
     }
 
@@ -44,6 +42,7 @@ public class AttachRigidBody : MonoBehaviour
         if (GameObject.Find("MyObject") != null)
         {
             myObject = GameObject.Find("MyObject");
+            AttachScript();
         }
         else if (GameObject.Find("MyObject") == null)
         {

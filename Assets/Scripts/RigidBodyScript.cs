@@ -5,11 +5,11 @@ using UnityEngine;
 public class RigidBodyScript : MonoBehaviour
 {
 
-    public Rigidbody bodyRigidbody;
-    public Rigidbody customPlayAreaRigidbody = null;
-    public float bodyMass = 100f;
-    public Transform playArea;
-    public bool generateRigidbody = false;
+    //public Rigidbody bodyRigidbody;
+    //public Rigidbody customPlayAreaRigidbod;
+    //public float bodyMass = 0f;
+    //public Transform playArea;
+    //public bool generateRigidbody = false;
 
 
     public List<GameObject> childrenList = new List<GameObject>();
@@ -18,7 +18,7 @@ public class RigidBodyScript : MonoBehaviour
 
     void Start()
     {
-        Invoke("AddDecendants", 15);
+        Invoke("AddDecendants", 10);
     }
 
     private void AddDecendants()
@@ -40,62 +40,67 @@ public class RigidBodyScript : MonoBehaviour
         {
             Mesh mesh = childrenList[i].GetComponent<Mesh>();
             MeshCollider mc = childrenList[i].GetComponent<MeshCollider>();
-            if (mesh == null)
+            Rigidbody rb = childrenList[i].GetComponent<Rigidbody>();
+            if (mesh == null && mc == null && rb == null)
             {
                 //mesh = childrenList[i].AddComponent<MeshRenderer>();
                 mc = childrenList[i].AddComponent<MeshCollider>();
+                mc.convex = true;
+                rb = childrenList[i].AddComponent<Rigidbody>();
+                rb.useGravity = false;
+                rb.isKinematic = true;
             }
 
-            else if (mesh != null && mc != null)
+            else if (mesh == null && mc != null && rb != null)
             {
                 break;
             }
 
-            //AddRigidBody();
+            
         }
         // TODO - Needs to add the rigid body to each child.
 
 
     }
 
-    private void AddRigidBody()
-    {
-        if (customPlayAreaRigidbody != null)
-        {
-            HasExistingRigidbody();
-            bodyRigidbody.mass = customPlayAreaRigidbody.mass;
-            bodyRigidbody.drag = customPlayAreaRigidbody.drag;
-            bodyRigidbody.angularDrag = customPlayAreaRigidbody.angularDrag;
-            bodyRigidbody.useGravity = !customPlayAreaRigidbody.useGravity;
-            bodyRigidbody.isKinematic = customPlayAreaRigidbody.isKinematic;
-            bodyRigidbody.interpolation = customPlayAreaRigidbody.interpolation;
-            bodyRigidbody.collisionDetectionMode = customPlayAreaRigidbody.collisionDetectionMode;
-            bodyRigidbody.constraints = customPlayAreaRigidbody.constraints;
-        }
-        else
-        {
-            if (!HasExistingRigidbody())
-            {
-                bodyRigidbody.mass = bodyMass;
-                bodyRigidbody.freezeRotation = true;
-            }
-        }
-    }
+    //private void AddRigidBody()
+    //{
+    //    if (customPlayAreaRigidbody != null)
+    //    {
+    //        HasExistingRigidbody();
+    //        bodyRigidbody.mass = customPlayAreaRigidbody.mass;
+    //        bodyRigidbody.drag = customPlayAreaRigidbody.drag;
+    //        bodyRigidbody.angularDrag = customPlayAreaRigidbody.angularDrag;
+    //        bodyRigidbody.useGravity = !customPlayAreaRigidbody.useGravity;
+    //        bodyRigidbody.isKinematic = customPlayAreaRigidbody.isKinematic;
+    //        bodyRigidbody.interpolation = customPlayAreaRigidbody.interpolation;
+    //        bodyRigidbody.collisionDetectionMode = customPlayAreaRigidbody.collisionDetectionMode;
+    //        bodyRigidbody.constraints = customPlayAreaRigidbody.constraints;
+    //    }
+    //    else
+    //    {
+    //        if (!HasExistingRigidbody())
+    //        {
+    //            bodyRigidbody.mass = bodyMass;
+    //            bodyRigidbody.freezeRotation = true;
+    //        }
+    //    }
+    //}
 
-    private bool HasExistingRigidbody()
-    {
-        Rigidbody existingRigidbody = playArea.GetComponent<Rigidbody>();
-        if (existingRigidbody != null)
-        {
-            generateRigidbody = false;
-            bodyRigidbody = existingRigidbody;
-            return true;
-        }
-        else
-        {
-            generateRigidbody = true;
-            bodyRigidbody = playArea.gameObject.AddComponent<Rigidbody>();
-            return false;
-        }
-    }
+    //private bool HasExistingRigidbody()
+    //{
+    //    Rigidbody existingRigidbody = playArea.GetComponent<Rigidbody>();
+    //    if (existingRigidbody != null)
+    //    {
+    //        generateRigidbody = false;
+    //        bodyRigidbody = existingRigidbody;
+    //        return true;
+    //    }
+    //    else
+    //    {
+    //        generateRigidbody = true;
+    //        bodyRigidbody = playArea.gameObject.AddComponent<Rigidbody>();
+    //        return false;
+    //    }
+    //}
 }

@@ -10,7 +10,7 @@ public class AttachShader : MonoBehaviour
 
     void Update()
     {
-        AttachScript();
+        FindObject();
     }
 
     // AttachScript description
@@ -19,7 +19,7 @@ public class AttachShader : MonoBehaviour
     // if it does then it stops the function
     private void AttachScript()
     {
-        FindObject();
+        
         if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>() && !myObject.GetComponent<AttachMaterial>())
         {
             myObject.AddComponent<OnePlaneCuttingControllerVR>();
@@ -40,6 +40,7 @@ public class AttachShader : MonoBehaviour
         if (GameObject.Find("MyObject") != null)
         {
             myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
+            AttachScript();
         }
         else if (GameObject.Find("MyObject") == null)
         {
