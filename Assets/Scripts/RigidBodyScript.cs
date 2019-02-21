@@ -40,16 +40,11 @@ public class RigidBodyScript : MonoBehaviour
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
-            Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
 
-            if (meshCollider == null && rigidBody == null)
+            if (meshCollider == null)
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
-                rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
-                rigidBody.useGravity = false;
-                rigidBody.isKinematic = true;
-
             }
         
 
