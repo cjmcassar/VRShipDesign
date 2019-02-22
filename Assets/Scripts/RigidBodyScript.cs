@@ -21,6 +21,13 @@ public class RigidBodyScript : MonoBehaviour
         Invoke("AddDecendants", 10);
     }
 
+
+    /// <summary>
+    /// Looks through childrenList for children with transforms
+    /// These children are then referenced in the script
+    /// The code then looks through the children with a meshrenderer
+    /// Each object with a meshrenderer gets a mesh collider and rigid body
+    /// </summary>
     private void AddDecendants()
     {
         childrenList.Clear();

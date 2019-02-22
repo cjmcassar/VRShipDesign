@@ -8,45 +8,48 @@ public class AttachShader : MonoBehaviour
     public GameObject myObject;
     
 
-    void Update()
-    {
-        FindObject();
-    }
 
     // AttachScript description
     // finds out if named object has script added to it already
     // if it doesnt then it adds it
     // if it does then it stops the function
-    private void AttachScript()
+    void OnCollisionEnter(Collision collision)
     {
-        
-        if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>() && !myObject.GetComponent<AttachMaterial>())
+        myObject = GameObject.Find("MyObject");
+        Transform[] children = GetComponentsInChildren<Transform>(true);
+        if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>())
         {
             myObject.AddComponent<OnePlaneCuttingControllerVR>();
             myObject.AddComponent<AttachMaterial>();
         }
-        else if (myObject.name != "Layer_0" && myObject.GetComponent<OnePlaneCuttingControllerVR>() && myObject.GetComponent<AttachMaterial>())
+        else if (myObject.name != "MyObject")
         {
             print("Object has script already");
             return;
         }
     }
 
+    //void Update()
+    //{
+    //    FindObject();
+    //}
+
+
     // FindObject description
     // finds the object after it is in the scene
     // if object is not in the scene then it returns void
-    private void FindObject()
-    {
-        if (GameObject.Find("MyObject") != null)
-        {
-            myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
-            AttachScript();
-        }
-        else if (GameObject.Find("MyObject") == null)
-        {
-            return;
-        }
-    }
+    //private void FindObject()
+    //{
+    //    if (GameObject.Find("MyObject") != null)
+    //    {
+    //        myObject = GameObject.Find("MyObject");
+
+    //    }
+    //    else if (GameObject.Find("MyObject") == null)
+    //    {
+    //        return;
+    //    }
+    //}
 
 
     //TODO figure out a way to choose object layer through GUI
