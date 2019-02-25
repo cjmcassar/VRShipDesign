@@ -47,7 +47,7 @@ public class RigidBodyScript : MonoBehaviour
         {
             childrenList.Add(child.gameObject);
             GameObject radialmenu = Instantiate(preFab);
-            radialmenu.transform.SetParent(child);
+            radialmenu.transform.SetParent(child); //TODO add a if statement that tightens the parameters to attach to just the children with mesh renderers
         }
 
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
