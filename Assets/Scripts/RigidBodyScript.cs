@@ -21,6 +21,13 @@ public class RigidBodyScript : MonoBehaviour
         Invoke("AddDecendants", 10);
     }
 
+
+    /// <summary>
+    /// Looks through childrenList for children with transforms
+    /// These children are then referenced in the script
+    /// The code then looks through the children with a meshrenderer
+    /// Each object with a meshrenderer gets a mesh collider and rigid body
+    /// </summary>
     private void AddDecendants()
     {
         childrenList.Clear();
@@ -40,24 +47,24 @@ public class RigidBodyScript : MonoBehaviour
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
-            Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
+            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
 
-            if (meshCollider == null && rigidBody == null)
+            if (meshCollider == null /*&& rigidBody == null*/)
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
-                rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
-                rigidBody.useGravity = false;
-                rigidBody.isKinematic = true;
+                //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
+                //rigidBody.useGravity = false;
+                //rigidBody.isKinematic = true;
 
             }
-        
+
 
             else if (meshCollider != null)
             {
                 break;
             }
-           
+
         }
         // TODO - Needs to add the rigid body to the parent object (richard's advice..Will test).
 
