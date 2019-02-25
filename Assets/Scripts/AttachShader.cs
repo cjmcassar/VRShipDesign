@@ -6,8 +6,7 @@ using System;
 public class AttachShader : MonoBehaviour
 {
     public GameObject myObject;
-
-
+    public List<GameObject> childrenList = new List<GameObject>();
 
     // AttachScript description
     // finds out if named object has script added to it already
@@ -17,7 +16,17 @@ public class AttachShader : MonoBehaviour
     {
         myObject = GameObject.Find("MyObject");
         Transform[] children = GetComponentsInChildren<Transform>(true);
-        if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>())
+
+        if (childrenList == null)
+        {
+            childrenList = new List<GameObject>();
+        }
+
+        foreach (Transform child in children)
+        {
+            childrenList.Add(child.gameObject);
+        }
+        if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
         {
             myObject.AddComponent<OnePlaneCuttingControllerVR>();
             myObject.AddComponent<AttachMaterial>();
