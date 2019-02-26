@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK.Highlighters;
 
 public class RigidBodyScript : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class RigidBodyScript : MonoBehaviour
 
 
     public List<GameObject> childrenList = new List<GameObject>();
+    //GameObject myObject = GameObject.Find("MyObject");
 
 
 
@@ -33,6 +35,9 @@ public class RigidBodyScript : MonoBehaviour
         childrenList.Clear();
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
+        GameObject preFab = GameObject.Find("RadialMenuSD");
+        
+
         if (childrenList == null)
         {
             childrenList = new List<GameObject>();
@@ -41,30 +46,38 @@ public class RigidBodyScript : MonoBehaviour
         foreach (Transform child in children)
         {
             childrenList.Add(child.gameObject);
+            GameObject radialmenu = Instantiate(preFab);
+            radialmenu.transform.SetParent(child); //TODO add a if statement that tightens the parameters to attach to just the children with mesh renderers
         }
 
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        
+
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
-            Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
+            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
 
-            if (meshCollider == null && rigidBody == null)
+            if (meshCollider == null /*&& rigidBody == null*/)
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
-                rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
-                rigidBody.useGravity = false;
-                rigidBody.isKinematic = true;
+
+
+
+                //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
+                //rigidBody.useGravity = false;
+                //rigidBody.isKinematic = true;
+
 
             }
-        
+
 
             else if (meshCollider != null)
             {
                 break;
             }
-           
+
         }
         // TODO - Needs to add the rigid body to the parent object (richard's advice..Will test).
 
