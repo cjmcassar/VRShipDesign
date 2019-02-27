@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using VRTK.Highlighters;
+using VRTK;
 
 public class RigidBodyScript : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class RigidBodyScript : MonoBehaviour
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
             //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
+            
 
             if (meshCollider == null /*&& rigidBody == null*/)
             {
@@ -65,6 +67,8 @@ public class RigidBodyScript : MonoBehaviour
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
+                renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
+
                 GameObject radialmenu = Instantiate(preFab);
                 radialmenu.transform.SetParent(renderers[i].transform);
 
