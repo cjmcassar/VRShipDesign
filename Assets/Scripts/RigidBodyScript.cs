@@ -14,6 +14,7 @@ public class RigidBodyScript : MonoBehaviour
 
 
     public List<GameObject> childrenList = new List<GameObject>();
+
     //GameObject myObject = GameObject.Find("MyObject");
 
 
@@ -35,8 +36,9 @@ public class RigidBodyScript : MonoBehaviour
         childrenList.Clear();
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
+
         GameObject preFab = GameObject.Find("RadialMenuSD");
-        
+
 
         if (childrenList == null)
         {
@@ -46,12 +48,10 @@ public class RigidBodyScript : MonoBehaviour
         foreach (Transform child in children)
         {
             childrenList.Add(child.gameObject);
-            GameObject radialmenu = Instantiate(preFab);
-            radialmenu.transform.SetParent(child); //TODO add a if statement that tightens the parameters to attach to just the children with mesh renderers
         }
 
+
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
-        
 
         for (int i = 0; i < renderers.Length; i++)
         {
@@ -62,16 +62,13 @@ public class RigidBodyScript : MonoBehaviour
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
-
-
-
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
-
+                GameObject radialmenu = Instantiate(preFab);
+                radialmenu.transform.SetParent(renderers[i].transform);
 
             }
-
 
             else if (meshCollider != null)
             {
@@ -80,9 +77,6 @@ public class RigidBodyScript : MonoBehaviour
 
         }
         // TODO - Needs to add the rigid body to the parent object (richard's advice..Will test).
-
-
-
 
     }
 
@@ -144,4 +138,4 @@ public class RigidBodyScript : MonoBehaviour
 //        rb = childrenList[i].AddComponent<Rigidbody>();
 //        rb.useGravity = false;
 //        rb.isKinematic = true;
-//    }
+////    }
