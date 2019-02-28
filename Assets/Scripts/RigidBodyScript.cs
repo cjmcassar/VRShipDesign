@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRTK.Highlighters;
 using VRTK;
+using System;
 
 public class RigidBodyScript : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class RigidBodyScript : MonoBehaviour
 
 
     public List<GameObject> childrenList = new List<GameObject>();
+ 
+
 
     //GameObject myObject = GameObject.Find("MyObject");
 
@@ -22,7 +25,7 @@ public class RigidBodyScript : MonoBehaviour
 
     void Start()
     {
-        Invoke("AddDecendants", 10);
+        Invoke("AddDecendants", 12);
     }
 
 
@@ -68,10 +71,11 @@ public class RigidBodyScript : MonoBehaviour
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
                 renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
-
-                GameObject radialmenu = Instantiate(preFab);
-                radialmenu.transform.SetParent(renderers[i].transform);
-
+                if (renderers[i].gameObject.AddComponent<VRTK_InteractableObject>() == true)
+                {
+                    GameObject radialmenu = Instantiate(preFab);
+                    radialmenu.transform.SetParent(renderers[i].transform);
+                }
             }
 
             else if (meshCollider != null)
