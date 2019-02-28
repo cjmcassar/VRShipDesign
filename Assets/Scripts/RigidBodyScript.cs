@@ -56,6 +56,7 @@ public class RigidBodyScript : MonoBehaviour
 
 
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        Component interactableScript = GetComponent<VRTK_InteractableObject>();
 
         for (int i = 0; i < renderers.Length; i++)
         {
@@ -70,12 +71,10 @@ public class RigidBodyScript : MonoBehaviour
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
-                renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
-                if (renderers[i].gameObject.AddComponent<VRTK_InteractableObject>() == true)
-                {
-                    GameObject radialmenu = Instantiate(preFab);
-                    radialmenu.transform.SetParent(renderers[i].transform);
-                }
+                interactableScript = renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
+
+                 GameObject radialmenu = Instantiate(preFab);
+                 radialmenu.transform.SetParent(renderers[i].transform);
             }
 
             else if (meshCollider != null)
