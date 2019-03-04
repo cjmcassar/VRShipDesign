@@ -136,6 +136,8 @@ namespace VRTK
                 transform.localScale = Vector3.zero;
             }
             gameObject.SetActive(true);
+
+            
         }
 
 
@@ -143,6 +145,7 @@ namespace VRTK
         {
             menu = GetComponent<VRTK_RadialMenu>();
             VRTK_SDKManager.AttemptAddBehaviourToToggleOnLoadedSetupChange(this);
+            headSet = GameObject.Find("MenuCollider");
         }
 
         protected virtual void Start()

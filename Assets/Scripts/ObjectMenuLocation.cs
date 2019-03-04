@@ -7,9 +7,13 @@ public class ObjectMenuLocation : MonoBehaviour {
     public GameObject headSet;
     public float distanceFromheadSet;
 
+    private void Start()
+    {
+        headSet = GameObject.Find("MenuCollider");
+    }
 
-	// Update is called once per frame
-	void Update ()  
+    // Update is called once per frame
+    void Update ()  
     {
         MenuMovement();
     }

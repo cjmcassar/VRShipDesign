@@ -16,8 +16,8 @@ public class RigidBodyScript : MonoBehaviour
 
 
     public List<GameObject> childrenList = new List<GameObject>();
- 
 
+    public GameObject preFab;
 
     //GameObject myObject = GameObject.Find("MyObject");
 
@@ -41,7 +41,7 @@ public class RigidBodyScript : MonoBehaviour
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
 
-        GameObject preFab = GameObject.Find("RadialMenuSD");
+        GameObject preFab = Resources.Load("RadialMenuSD", typeof(GameObject)) as GameObject;
 
 
         if (childrenList == null)
@@ -73,8 +73,8 @@ public class RigidBodyScript : MonoBehaviour
                 //rigidBody.isKinematic = true;
                 interactableScript = renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
 
-                 GameObject radialmenu = Instantiate(preFab);
-                 radialmenu.transform.SetParent(renderers[i].transform);
+                GameObject radialmenu = GameObject.Instantiate(preFab);
+                radialmenu.transform.SetParent(renderers[i].transform);
             }
 
             else if (meshCollider != null)
