@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using System;
+using VRTK;
 
 public class AttachShader : MonoBehaviour
 {
@@ -12,7 +11,15 @@ public class AttachShader : MonoBehaviour
     // finds out if named object has script added to it already
     // if it doesnt then it adds it
     // if it does then it stops the function
-    void OnCollisionEnter(Collision collision)
+
+    public void Start()
+    {
+        AttachScripts();
+    }
+
+
+
+    public void AttachScripts()
     {
         myObject = GameObject.Find("MyObject");
         Transform[] children = GetComponentsInChildren<Transform>(true);
@@ -26,16 +33,39 @@ public class AttachShader : MonoBehaviour
         {
             childrenList.Add(child.gameObject);
         }
-        if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+        //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+        //{
+        //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
+        //    myObject.AddComponent<AttachMaterial>();
+        //}
+        //else if (myObject.name != "MyObject")
+        //{
+        //    print("Object has script already");
+        //    return;
+        //}
+
+        MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+
+
+        for (int i = 0; i < renderers.Length; i++)
         {
-            myObject.AddComponent<OnePlaneCuttingControllerVR>();
-            myObject.AddComponent<AttachMaterial>();
+
+            if (renderers != null)
+            {
+                renderers[i].gameObject.AddComponent<OnePlaneCuttingControllerVR>();
+                renderers[i].gameObject.AddComponent<AttachMaterial>();
+            }
+
+            else if (renderers == null)
+            {
+                break;
+            }
+
         }
-        else if (myObject.name != "MyObject")
-        {
-            print("Object has script already");
-            return;
-        }
+
+
+
+
     }
 
     //void Update()
