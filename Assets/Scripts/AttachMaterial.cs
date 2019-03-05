@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class AttachMaterial : MonoBehaviour
 {
-    public GameObject myObject;
-    public GameObject plane;
+    public GameObject childObject;
+    public GameObject plane = Resources.Load("Quad", typeof(GameObject)) as GameObject;
     public Material PlaneCutter;
 
 
@@ -18,15 +18,18 @@ public class AttachMaterial : MonoBehaviour
 
     // AttachPlaneCutter Description
     // Finds the games objects and materials then attaches is to the named object
-    // TODO figure out how to attach it the object that is in the scene
     private void AttachPlaneCutter()
     {
+        childObject = GetComponent<GameObject>();                                                   // references the gameobject that this script is attached to (hopefully)
 
-        myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
-        plane = GameObject.Find("Quad");                                                            // finds the plane object in the scene and attaches it to the script
-        PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;         // finds the material in the resources folder and attaches it to the script
-        myObject.GetComponentInChildren<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
+        MeshRenderer renderer = GetComponent<MeshRenderer>();
 
+            if (renderer != null)
+            {
+                PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;  // finds the material in the resources folder and attaches it to the script
+                childObject.GetComponent<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
+                GameObject quad = GameObject.Instantiate(plane);                                     // instantiates the quad
+            }
         #region OldCode
         //if (myObject.name == "Layer_0" /*&& myObject.GetComponent<OnePlaneCuttingControllerVR>()*/)
         //{

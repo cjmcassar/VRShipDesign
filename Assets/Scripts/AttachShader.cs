@@ -17,8 +17,6 @@ public class AttachShader : MonoBehaviour
         AttachScripts();
     }
 
-
-
     public void AttachScripts()
     {
         myObject = GameObject.Find("MyObject");
@@ -33,19 +31,8 @@ public class AttachShader : MonoBehaviour
         {
             childrenList.Add(child.gameObject);
         }
-        //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
-        //{
-        //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
-        //    myObject.AddComponent<AttachMaterial>();
-        //}
-        //else if (myObject.name != "MyObject")
-        //{
-        //    print("Object has script already");
-        //    return;
-        //}
 
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
-
 
         for (int i = 0; i < renderers.Length; i++)
         {
@@ -63,10 +50,19 @@ public class AttachShader : MonoBehaviour
 
         }
 
-
-
-
     }
+
+    //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+    //{
+    //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
+    //    myObject.AddComponent<AttachMaterial>();
+    //}
+    //else if (myObject.name != "MyObject")
+    //{
+    //    print("Object has script already");
+    //    return;
+    //}
+
 
     //void Update()
     //{
