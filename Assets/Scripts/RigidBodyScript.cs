@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using VRTK.Highlighters;
+using VRTK;
+using System;
 
 public class RigidBodyScript : MonoBehaviour
 {
@@ -14,14 +16,16 @@ public class RigidBodyScript : MonoBehaviour
 
 
     public List<GameObject> childrenList = new List<GameObject>();
-   
+
+    public GameObject preFab;
+
     //GameObject myObject = GameObject.Find("MyObject");
 
 
 
     void Start()
     {
-        Invoke("AddDecendants", 10);
+        Invoke("AddDecendants", 12);
     }
 
 
@@ -37,8 +41,8 @@ public class RigidBodyScript : MonoBehaviour
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
 
-        GameObject preFab = GameObject.Find("RadialMenuSD");
-        
+        GameObject preFab = Resources.Load("RadialMenuSD", typeof(GameObject)) as GameObject;
+
 
         if (childrenList == null)
         {
@@ -52,11 +56,13 @@ public class RigidBodyScript : MonoBehaviour
 
 
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        Component interactableScript = GetComponent<VRTK_InteractableObject>();
 
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
             //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
+            
 
             if (meshCollider == null /*&& rigidBody == null*/)
             {
@@ -65,9 +71,10 @@ public class RigidBodyScript : MonoBehaviour
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
-                GameObject radialmenu = Instantiate(preFab);
-                radialmenu.transform.SetParent(renderers[i].transform);
+                interactableScript = renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
 
+                GameObject radialmenu = GameObject.Instantiate(preFab);
+                radialmenu.transform.SetParent(renderers[i].transform);
             }
 
             else if (meshCollider != null)
@@ -138,4 +145,4 @@ public class RigidBodyScript : MonoBehaviour
 //        rb = childrenList[i].AddComponent<Rigidbody>();
 //        rb.useGravity = false;
 //        rb.isKinematic = true;
-//    }
+////    }

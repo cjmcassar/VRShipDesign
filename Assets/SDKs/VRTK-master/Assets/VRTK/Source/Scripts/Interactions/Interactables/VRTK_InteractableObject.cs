@@ -182,7 +182,7 @@ namespace VRTK
         [Header("Use Settings")]
 
         [Tooltip("Determines if the Interactable Object can be used.")]
-        public bool isUsable = false;
+        public bool isUsable = true;
         [Tooltip("If this is checked then the use button on the controller needs to be continually held down to keep using. If this is unchecked the the use button toggles the use action with one button press to start using and another to stop using.")]
         public bool holdButtonToUse = true;
         [Tooltip("If this is checked the Interactable Object can be used only if it is currently being grabbed.")]
