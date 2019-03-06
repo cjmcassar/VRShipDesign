@@ -5,31 +5,31 @@ using VRTK;
 public class AttachShader : MonoBehaviour
 {
     public GameObject myObject;
-    public List<GameObject> childrenList = new List<GameObject>();
+    public List<GameObject> parentList = new List<GameObject>();
 
     // AttachScript description
     // finds out if named object has script added to it already
     // if it doesnt then it adds it
     // if it does then it stops the function
 
-    public void Start()
-    {
-        AttachScripts();
-    }
+    //public void Start()
+    //{
+    //    AttachScripts();
+    //}
 
     public void AttachScripts()
     {
         myObject = GameObject.Find("MyObject");
-        Transform[] children = GetComponentsInChildren<Transform>(true);
+        Transform parents = GetComponentInParent<Transform>();
 
-        if (childrenList == null)
+        if (parentList == null)
         {
-            childrenList = new List<GameObject>();
+            parentList = new List<GameObject>();
         }
 
-        foreach (Transform child in children)
+        foreach (Transform parent in parents)
         {
-            childrenList.Add(child.gameObject);
+            parentList.Add(parent.gameObject);
         }
 
         #region Old Code
@@ -45,21 +45,17 @@ public class AttachShader : MonoBehaviour
         //}
         #endregion
 
-        MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        MeshRenderer renderer = GetComponentInParent<MeshRenderer>();
 
-        for (int i = 0; i < renderers.Length; i++)
+        if (renderer != null)
+        {
+            renderer.gameObject.AddComponent<OnePlaneCuttingControllerVR>();
+            renderer.gameObject.AddComponent<AttachMaterial>();
+        }
+
+        else if (renderer == null)
         {
 
-            if (renderers != null)
-            {
-                renderers[i].gameObject.AddComponent<OnePlaneCuttingControllerVR>();
-                renderers[i].gameObject.AddComponent<AttachMaterial>();
-            }
-
-            else if (renderers == null)
-            {
-                break;
-            }
 
         }
 
