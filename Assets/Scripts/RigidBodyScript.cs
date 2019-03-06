@@ -7,19 +7,21 @@ using System;
 
 public class RigidBodyScript : MonoBehaviour
 {
-
+    #region Old Code
     //public Rigidbody bodyRigidbody;
     //public Rigidbody customPlayAreaRigidbod;
     //public float bodyMass = 0f;
     //public Transform playArea;
     //public bool generateRigidbody = false;
 
+    //GameObject myObject = GameObject.Find("MyObject");
+    #endregion 
 
     public List<GameObject> childrenList = new List<GameObject>();
 
     public GameObject preFab;
 
-    //GameObject myObject = GameObject.Find("MyObject");
+  
 
 
 
@@ -54,7 +56,6 @@ public class RigidBodyScript : MonoBehaviour
             childrenList.Add(child.gameObject);
         }
 
-
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
         Component interactableScript = GetComponent<VRTK_InteractableObject>();
 
@@ -68,9 +69,11 @@ public class RigidBodyScript : MonoBehaviour
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
+                #region RigidBody
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
+                #endregion
                 interactableScript = renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
 
                 GameObject radialmenu = GameObject.Instantiate(preFab);
@@ -87,6 +90,7 @@ public class RigidBodyScript : MonoBehaviour
 
     }
 
+    #region Old Code
     //private void AddRigidBody()
     //{
     //    if (customPlayAreaRigidbody != null)
@@ -127,11 +131,12 @@ public class RigidBodyScript : MonoBehaviour
     //        return false;
     //    }
     //}
+    #endregion
 }
 
 
 
-
+#region Old Code
 //for (int i = 0; i < childrenList.Count; i++)
 //{
 //    Mesh mesh = childrenList[i].GetComponent<Mesh>();
@@ -146,3 +151,4 @@ public class RigidBodyScript : MonoBehaviour
 //        rb.useGravity = false;
 //        rb.isKinematic = true;
 ////    }
+#endregion

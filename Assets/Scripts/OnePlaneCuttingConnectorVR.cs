@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 //[ExecuteInEditMode]
-public class OnePlaneCuttingControllerVR : MonoBehaviour
+public class OnePlaneCuttingConnectorVR : MonoBehaviour
 {
 
     public GameObject plane;
@@ -18,7 +18,7 @@ public class OnePlaneCuttingControllerVR : MonoBehaviour
         normal = plane.transform.TransformVector(new Vector3(0, 0, -1));
         position = plane.transform.position;
         UpdateShaderProperties();
-        plane = GameObject.Find("Quad"); // finds the plane object in the scene and attaches it to the script
+        
     }
     void Update()
     {
@@ -27,12 +27,20 @@ public class OnePlaneCuttingControllerVR : MonoBehaviour
 
     private void UpdateShaderProperties()
     {
+        if (plane == null)
+        {
+            plane = GameObject.Find("Quad(Clone)"); // finds the plane object in the scene and attaches it to the script
+        }
+
+
         normal = plane.transform.TransformVector(new Vector3(0, 0, -1));
         position = plane.transform.position;
         rend.material.SetVector("_PlaneNormal", normal);
         rend.material.SetVector("_PlanePosition", position);
     }
 
-    // TODO needs to change the position of the quad to that of the controller
+
+
+
 
 }

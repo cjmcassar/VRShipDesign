@@ -12,10 +12,12 @@ public class AttachShader : MonoBehaviour
     // if it doesnt then it adds it
     // if it does then it stops the function
 
+    #region Old Code
     //public void Start()
     //{
     //    AttachScripts();
     //}
+    #endregion Old Code
 
     public void AttachScripts()
     {
@@ -49,8 +51,9 @@ public class AttachShader : MonoBehaviour
 
         if (renderer != null)
         {
-            renderer.gameObject.AddComponent<OnePlaneCuttingControllerVR>();
-            renderer.gameObject.AddComponent<AttachMaterial>();
+            renderer.gameObject.AddComponent<OnePlaneCuttingConnectorVR>();
+            renderer.gameObject.AddComponent<ChangeMaterial>();
+            renderer.gameObject.AddComponent<QuadLocation>();
         }
 
         else if (renderer == null)
