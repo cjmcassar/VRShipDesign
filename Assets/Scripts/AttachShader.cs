@@ -32,6 +32,19 @@ public class AttachShader : MonoBehaviour
             childrenList.Add(child.gameObject);
         }
 
+        #region Old Code
+        //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+        //{
+        //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
+        //    myObject.AddComponent<AttachMaterial>();
+        //}
+        //else if (myObject.name != "MyObject")
+        //{
+        //    print("Object has script already");
+        //    return;
+        //}
+        #endregion
+
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
 
         for (int i = 0; i < renderers.Length; i++)
@@ -52,18 +65,7 @@ public class AttachShader : MonoBehaviour
 
     }
 
-    //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
-    //{
-    //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
-    //    myObject.AddComponent<AttachMaterial>();
-    //}
-    //else if (myObject.name != "MyObject")
-    //{
-    //    print("Object has script already");
-    //    return;
-    //}
-
-
+    #region Old Code
     //void Update()
     //{
     //    FindObject();
@@ -88,4 +90,5 @@ public class AttachShader : MonoBehaviour
 
 
     //TODO figure out a way to choose object layer through GUI
+    #endregion
 }

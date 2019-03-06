@@ -24,12 +24,12 @@ public class AttachMaterial : MonoBehaviour
 
         MeshRenderer renderer = GetComponent<MeshRenderer>();
 
-            if (renderer != null)
-            {
-                PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;  // finds the material in the resources folder and attaches it to the script
-                childObject.GetComponent<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
-                GameObject quad = GameObject.Instantiate(plane);                                     // instantiates the quad
-            }
+        if (renderer != null)
+        {
+            PlaneCutter = Resources.Load("OnePlaneCrossSection", typeof(Material)) as Material;  // finds the material in the resources folder and attaches it to the script
+            childObject.GetComponent<Renderer>().sharedMaterial = PlaneCutter;                   // Gets the material and attaches it to the obejct
+            GameObject quad = GameObject.Instantiate(plane);                                     // instantiates the quad
+        }
         #region OldCode
         //if (myObject.name == "Layer_0" /*&& myObject.GetComponent<OnePlaneCuttingControllerVR>()*/)
         //{
@@ -44,4 +44,4 @@ public class AttachMaterial : MonoBehaviour
     }
 
 
-    }
+}
