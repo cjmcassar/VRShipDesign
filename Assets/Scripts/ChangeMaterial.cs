@@ -16,8 +16,9 @@ public class ChangeMaterial : MonoBehaviour
         AttachPlaneCutter();
     }
 
-    // AttachPlaneCutter Description
-    // Finds the games objects and materials then attaches is to the named object
+    /// <AttachPlaneCutter Description>
+    /// Finds the games objects and materials then attaches is to the named object
+    /// </AttachPlaneCutter Description>
     private void AttachPlaneCutter()
     {
         childObject = this.gameObject;                                                   // references the gameobject that this script is attached to (hopefully)

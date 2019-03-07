@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class AttachRigidBody : MonoBehaviour
 {
-
-
     public GameObject myObject;
-
-    // TODO: add function that attaches to any gameobject loaded in the scene and its children
-    // TODO(cont.): Maybe the function can be an if statement looking for gameobject with the name "myobject"
 
     void Update()
     {
         FindObject();
     }
 
-    // AttachScript description
-    // finds out if named object has script added to it already
-    // if it doesnt then it adds it
-    // if it does then it stops the function
+    /// <AttachScript description>
+    /// finds out if named object has script added to it already
+    /// if it doesnt then it adds it
+    /// if it does then it stops the function
+    ///</AttachScript>
     private void AttachScript()
     {
         
@@ -34,9 +30,10 @@ public class AttachRigidBody : MonoBehaviour
         }
     }
 
-    // FindObject description
-    // finds the object after it is in the scene
-    // if object is not in the scene then it returns void
+    /// <FindObject description>
+    /// finds the object after it is in the scene
+    /// if object is not in the scene then it returns void
+    /// </FindObject>
     private void FindObject()
     {
         if (GameObject.Find("MyObject") != null)

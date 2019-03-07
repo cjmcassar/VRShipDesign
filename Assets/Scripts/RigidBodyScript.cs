@@ -31,12 +31,12 @@ public class RigidBodyScript : MonoBehaviour
     }
 
 
-    /// <summary>
+    /// <AddDecendants Description>
     /// Looks through childrenList for children with transforms
     /// These children are then referenced in the script
     /// The code then looks through the children with a meshrenderer
     /// Each object with a meshrenderer gets a mesh collider and rigid body
-    /// </summary>
+    /// </AddDecendants Description>
     private void AddDecendants()
     {
         childrenList.Clear();
@@ -62,8 +62,10 @@ public class RigidBodyScript : MonoBehaviour
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
-            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
-            
+            #region Rigidbody 
+            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>(); 
+            #endregion
+
 
             if (meshCollider == null /*&& rigidBody == null*/)
             {

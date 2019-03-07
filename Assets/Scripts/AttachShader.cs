@@ -7,11 +7,6 @@ public class AttachShader : MonoBehaviour
     public GameObject myObject;
     public List<GameObject> parentList = new List<GameObject>();
 
-    // AttachScript description
-    // finds out if named object has script added to it already
-    // if it doesnt then it adds it
-    // if it does then it stops the function
-
     #region Old Code
     //public void Start()
     //{
@@ -19,6 +14,11 @@ public class AttachShader : MonoBehaviour
     //}
     #endregion Old Code
 
+    /// <AttachScript description>
+    /// finds out if named object has script added to it already
+    /// if it doesnt then it adds it
+    /// if it does then it stops the function
+    ///</AttachScript>
     public void AttachScripts()
     {
         myObject = GameObject.Find("MyObject");

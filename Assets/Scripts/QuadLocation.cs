@@ -17,6 +17,9 @@ public class QuadLocation : MonoBehaviour {
         ChangeQuadLocation();
     }
 
+    /// <QuadLocation Description>
+    /// Locates the quad prefab in the resources folder then clones it into the game environment
+    /// </QuadLocation Description>
     private void LoadQuad()
     {
         quad = Resources.Load("Quad", typeof(GameObject)) as GameObject;
@@ -26,6 +29,9 @@ public class QuadLocation : MonoBehaviour {
         quadClone.transform.SetParent(ObjectToHide);
     }
 
+    /// <ChangeQuadLocation Description>
+    /// Locates the controller prefab and sends the quad to that location
+    /// </ChangeQuadLocation Description>
     private void ChangeQuadLocation()
     {
         controller = GameObject.Find("Controller (left)");
@@ -38,7 +44,4 @@ public class QuadLocation : MonoBehaviour {
 
     }
 
-    // TODO 1 needs to change the position of the quad to that of the controller
-    // TODO 2 the quad could use the transform position of the controller.. 
-    // TODO 3 the issue would be finding the controller. Maybe another gameobject.find would work .
 }
