@@ -21,10 +21,6 @@ public class RigidBodyScript : MonoBehaviour
 
     public GameObject preFab;
 
-  
-
-
-
     void Start()
     {
         Invoke("AddDecendants", 12);

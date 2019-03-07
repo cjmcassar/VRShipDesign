@@ -38,10 +38,4 @@ public class QuadLocation : MonoBehaviour {
         quadClone.transform.position = controller.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
 }
