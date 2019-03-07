@@ -8,11 +8,13 @@ public class QuadLocation : MonoBehaviour {
     public GameObject quadClone;
     public Transform ObjectToHide;
 
-	// Use this for initialization
-	public void Start ()
+    public GameObject controller;
+
+    // Use this for initialization
+    public void Start ()
     {
         LoadQuad();
-
+        ChangeQuadLocation();
     }
 
     private void LoadQuad()
@@ -24,25 +26,15 @@ public class QuadLocation : MonoBehaviour {
         quadClone.transform.SetParent(ObjectToHide);
     }
 
-    // Update is called once per frame
-    void Update ()
-    {
-		
-	}
-
     private void ChangeQuadLocation()
     {
-        MeshRenderer renderer = GetComponent<MeshRenderer>();
+        controller = GameObject.Find("Controller (left)");
+        quadClone.transform.position = controller.transform.position;
+    }
 
-            if (renderer == null )
-            {
-
-            }
-
-            else if (renderer != null)
-            {
-
-            }
+    // Update is called once per frame
+    void Update()
+    {
 
     }
 
