@@ -56,11 +56,6 @@ public class AttachShader : MonoBehaviour
             renderer.gameObject.AddComponent<QuadLocation>();
         }
 
-        else if (renderer == null)
-        {
-
-
-        }
 
     }
 

@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4869001798327486}
   - component: {fileID: 114466641302353468}
   - component: {fileID: 114621710468016492}
+  - component: {fileID: 114068642356840906}
   m_Layer: 0
   m_Name: RadialMenuSD
   m_TagString: Untagged
@@ -77,6 +78,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114068642356840906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764755515367414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3291dd003b3e9c44eaedaabc44b6a1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quadClone: {fileID: 0}
+  myObject: {fileID: 0}
+  parentList: []
 --- !u!114 &114466641302353468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -155,10 +170,21 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-  - ButtonIcon: {fileID: 21300000, guid: e15fc9048ad6ddd47aedc4c27bb6946d, type: 3}
+  - ButtonIcon: {fileID: 21300000, guid: a6ecd52b0f31b8b48aed8cde76646d67, type: 3}
     OnClick:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 114068642356840906}
+          m_MethodName: ResetFunctions
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
     OnHold:
