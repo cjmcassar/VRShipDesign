@@ -92,6 +92,8 @@ MonoBehaviour:
   quadClone: {fileID: 0}
   myObject: {fileID: 0}
   parentList: []
+  Parent: {fileID: 0}
+  material: {fileID: 0}
   OnePlane: {fileID: 0}
   changeMaterial: {fileID: 0}
   quadLocation: {fileID: 0}
@@ -178,7 +180,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114068642356840906}
-          m_MethodName: Start
+          m_MethodName: ResetFunctions
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
