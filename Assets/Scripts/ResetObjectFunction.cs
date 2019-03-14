@@ -4,41 +4,58 @@ using UnityEngine;
 
 public class ResetObjectFunction : MonoBehaviour {
 
-    public GameObject quadClone;
 
+    public GameObject quadClone;
     public GameObject myObject;
     public List<GameObject> parentList = new List<GameObject>();
 
+    public Transform Parent;
+
+    public Material material;
+
+
+    public Component OnePlane;
+    public Component changeMaterial;
+    public Component quadLocation;
+
+
+    public void Start()
+    {
+        quadClone = GameObject.Find("Quad(Clone)");
+        myObject = this.gameObject;
+
+        Parent = GetComponentInParent<Transform>();
     
+        OnePlane = this.gameObject.GetComponentInParent<OnePlaneCuttingConnectorVR>();
+        changeMaterial = this.gameObject.GetComponentInParent<ChangeMaterial>();
+        quadLocation = this.gameObject.GetComponentInParent<QuadLocation>();
+
+        ResetFunctions();
+    }
+
 
 
     public void ResetFunctions()
     {
         myObject = GameObject.Find("MyObject");
-        Transform parents = GetComponentInParent<Transform>();
-
-        if (parentList == null)
-        {
-            parentList = new List<GameObject>();
-        }
-
-        foreach (Transform parent in parents)
+ 
+        foreach (Transform parent in Parent)
         {
             parentList.Add(parent.gameObject);
         }
 
-        Component OnePlane = GetComponentInParent<OnePlaneCuttingConnectorVR>();
-        Component changeMaterial = GetComponentInParent<ChangeMaterial>();
-        Component quadLocation = GetComponentInParent<QuadLocation>();
-
         if (OnePlane != null && changeMaterial != null && quadLocation != null)
         {
-            Destroy(OnePlane.gameObject.AddComponent<OnePlaneCuttingConnectorVR>());
-            Destroy(changeMaterial.gameObject.AddComponent<ChangeMaterial>());
-            Destroy(quadLocation.gameObject.AddComponent<QuadLocation>());
+            Destroy(this.gameObject.GetComponentInParent<OnePlaneCuttingConnectorVR>());
+            Destroy(this.gameObject.GetComponentInParent<ChangeMaterial>());
+            Destroy(this.gameObject.GetComponentInParent<QuadLocation>());
 
-            quadClone = GameObject.Find("Quad(Clone)");
             Destroy(quadClone);
+
+            material = Resources.Load("glass", typeof(Material)) as Material;
+
+            Parent.transform.GetComponent<Renderer>().sharedMaterial = material;
+
         }
 
     }
