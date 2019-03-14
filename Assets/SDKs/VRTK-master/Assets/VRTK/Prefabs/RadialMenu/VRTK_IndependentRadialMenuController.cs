@@ -37,6 +37,9 @@ namespace VRTK
         [Tooltip("The object the RadialMenu should face towards. If left empty, it will automatically try to find the Headset Camera.")]
         public GameObject rotateTowards;
 
+        public GameObject headSet;
+        public float distanceFromheadSet;
+
         protected List<GameObject> interactingObjects = new List<GameObject>(); // Objects (controllers) that are either colliding with the menu or clicking the menu
         protected HashSet<GameObject> collidingObjects = new HashSet<GameObject>(); // Just objects that are currently colliding with the menu or its parent
         protected SphereCollider menuCollider;
@@ -76,6 +79,8 @@ namespace VRTK
                 Initialize();
             }
         }
+
+
 
         protected override void Initialize()
         {
@@ -117,14 +122,12 @@ namespace VRTK
 
                 // All of the transformVector's are to account for the scaling of the radial menu's 'panel' and the scaling of the eventsManager parent object
                 collider.radius = (transform.GetChild(0).GetComponent<RectTransform>().rect.width / 2) * colliderRadiusMultiplier * eventsManager.transform.InverseTransformVector(transform.GetChild(0).TransformVector(Vector3.one)).x;
-                collider.center = eventsManager.transform.InverseTransformVector(transform.position - eventsManager.transform.position);
-
+;
                 collider.isTrigger = true;
                 collider.enabled = false; // Want this to only activate when the menu is showing
 
                 menuCollider = collider;
                 desiredColliderCenter = collider.center;
-
                 transform.rotation = startingRot;
             }
 
@@ -133,12 +136,16 @@ namespace VRTK
                 transform.localScale = Vector3.zero;
             }
             gameObject.SetActive(true);
+
+            
         }
+
 
         protected override void Awake()
         {
             menu = GetComponent<VRTK_RadialMenu>();
             VRTK_SDKManager.AttemptAddBehaviourToToggleOnLoadedSetupChange(this);
+            headSet = GameObject.Find("MenuCollider");
         }
 
         protected virtual void Start()
@@ -208,6 +215,12 @@ namespace VRTK
                     transform.rotation = Quaternion.LookRotation((rotateTowards.transform.position - transform.position) * -1, Vector3.up) * initialRotation; // Face the target, but maintain initial rotation
                 }
             }
+
+            SphereCollider collider = eventsManager.gameObject.GetComponent<SphereCollider>();
+            collider.center = headSet.transform.position + (headSet.transform.forward * distanceFromheadSet); // my addition to finding the menu collider for this sitution.             /*eventsManager.transform.InverseTransformVector(transform.position - eventsManager.transform.position);*/
+            // moved this ^  from the (addmenucollider) if statement and edited it
+
+
         }
 
         protected virtual void FixedUpdate()

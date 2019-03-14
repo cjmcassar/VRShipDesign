@@ -2,63 +2,49 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttachRigidBody : MonoBehaviour {
+public class AttachRigidBody : MonoBehaviour
+{
+    public GameObject myObject;
 
-    private Rigidbody bodyRigidbody;
-    public Rigidbody customPlayAreaRigidbody = null;
-    public float bodyMass = 100f;
-    public Transform playArea;
-    protected bool generateRigidbody = false;
-
- //   // Use this for initialization
- //   void Start () {
-		
-	//}
-	
-	//// Update is called once per frame
-	//void Update () {
-		
-	//}
-
-
-    private void AddRigidBody()
+    void Update()
     {
-        if (customPlayAreaRigidbody != null)
+        FindObject();
+    }
+
+    /// <AttachScript description>
+    /// finds out if named object has script added to it already
+    /// if it doesnt then it adds it
+    /// if it does then it stops the function
+    ///</AttachScript>
+    private void AttachScript()
+    {
+        
+        if (myObject.name == "MyObject" && !myObject.GetComponent<RigidBodyScript>())
         {
-            HasExistingRigidbody();
-            bodyRigidbody.mass = customPlayAreaRigidbody.mass;
-            bodyRigidbody.drag = customPlayAreaRigidbody.drag;
-            bodyRigidbody.angularDrag = customPlayAreaRigidbody.angularDrag;
-            bodyRigidbody.useGravity = customPlayAreaRigidbody.useGravity;
-            bodyRigidbody.isKinematic = customPlayAreaRigidbody.isKinematic;
-            bodyRigidbody.interpolation = customPlayAreaRigidbody.interpolation;
-            bodyRigidbody.collisionDetectionMode = customPlayAreaRigidbody.collisionDetectionMode;
-            bodyRigidbody.constraints = customPlayAreaRigidbody.constraints;
+            myObject.AddComponent<RigidBodyScript>();
         }
-        else
+        else if (myObject.name != "MyObject" && myObject.GetComponent<RigidBodyScript>())
         {
-            if (!HasExistingRigidbody())
-            {
-                bodyRigidbody.mass = bodyMass;
-                bodyRigidbody.freezeRotation = true;
-            }
+            print("Object has script already");
+
         }
     }
 
-    protected virtual bool HasExistingRigidbody()
+    /// <FindObject description>
+    /// finds the object after it is in the scene
+    /// if object is not in the scene then it returns void
+    /// </FindObject>
+    private void FindObject()
     {
-        Rigidbody existingRigidbody = playArea.GetComponent<Rigidbody>();
-        if (existingRigidbody != null)
+        if (GameObject.Find("MyObject") != null)
         {
-            generateRigidbody = false;
-            bodyRigidbody = existingRigidbody;
-            return true;
+            myObject = GameObject.Find("MyObject");
+            AttachScript();
         }
-        else
+        else if (GameObject.Find("MyObject") == null)
         {
-            generateRigidbody = true;
-            bodyRigidbody = playArea.gameObject.AddComponent<Rigidbody>();
-            return false;
+            return;
         }
     }
+
 }

@@ -1,53 +1,88 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using System;
+using VRTK;
 
 public class AttachShader : MonoBehaviour
 {
     public GameObject myObject;
-    
+    public List<GameObject> parentList = new List<GameObject>();
 
-    void Update()
+    #region Old Code
+    //public void Start()
+    //{
+    //    AttachScripts();
+    //}
+    #endregion Old Code
+
+    /// <AttachScript description>
+    /// finds out if named object has script added to it already
+    /// if it doesnt then it adds it
+    /// if it does then it stops the function
+    ///</AttachScript>
+    public void AttachScripts()
     {
-        AttachScript();
+        myObject = GameObject.Find("MyObject");
+        Transform parents = GetComponentInParent<Transform>();
+
+        if (parentList == null)
+        {
+            parentList = new List<GameObject>();
+        }
+
+        foreach (Transform parent in parents)
+        {
+            parentList.Add(parent.gameObject);
+        }
+
+        #region Old Code
+        //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+        //{
+        //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
+        //    myObject.AddComponent<AttachMaterial>();
+        //}
+        //else if (myObject.name != "MyObject")
+        //{
+        //    print("Object has script already");
+        //    return;
+        //}
+        #endregion
+
+        MeshRenderer renderer = GetComponentInParent<MeshRenderer>();
+
+        if (renderer != null)
+        {
+            renderer.gameObject.AddComponent<OnePlaneCuttingConnectorVR>();
+            renderer.gameObject.AddComponent<ChangeMaterial>();
+            renderer.gameObject.AddComponent<QuadLocation>();
+        }
+
+
     }
 
-    // AttachScript description
-    // finds out if named object has script added to it already
-    // if it doesnt then it adds it
-    // if it does then it stops the function
-    private void AttachScript()
-    {
-        FindObject();
-        if (myObject.name == "Layer_0" && !myObject.GetComponent<OnePlaneCuttingControllerVR>() && !myObject.GetComponent<AttachMaterial>())
-        {
-            myObject.AddComponent<OnePlaneCuttingControllerVR>();
-            myObject.AddComponent<AttachMaterial>();
-        }
-        else if (myObject.name != "Layer_0" && myObject.GetComponent<OnePlaneCuttingControllerVR>() && myObject.GetComponent<AttachMaterial>())
-        {
-            print("Object has script already");
-            return;
-        }
-    }
+    #region Old Code
+    //void Update()
+    //{
+    //    FindObject();
+    //}
+
 
     // FindObject description
     // finds the object after it is in the scene
     // if object is not in the scene then it returns void
-    private void FindObject()
-    {
-        if (GameObject.Find("MyObject") != null)
-        {
-            myObject = GameObject.Find("MyObject/Layer_0/Layer_0");
-        }
-        else if (GameObject.Find("MyObject") == null)
-        {
-            return;
-        }
-    }
+    //private void FindObject()
+    //{
+    //    if (GameObject.Find("MyObject") != null)
+    //    {
+    //        myObject = GameObject.Find("MyObject");
+
+    //    }
+    //    else if (GameObject.Find("MyObject") == null)
+    //    {
+    //        return;
+    //    }
+    //}
 
 
     //TODO figure out a way to choose object layer through GUI
+    #endregion
 }
-
