@@ -27,7 +27,7 @@ public class ObjectName : MonoBehaviour
     void LateUpdate()
     {
         //Make the text allways face the camera
-        transform.rotation = Camera.main.transform.rotation;
+        //transform.rotation = Camera.main.transform.rotation;
     }
 
     //displays the name of the parent
@@ -38,7 +38,7 @@ public class ObjectName : MonoBehaviour
         if (displayName)
         {
             displayTAG = false;
-            textToDisplay = GetComponent<TextMesh>().text; /*(string)this.transform.parent.name;*/
+            textToDisplay = (string)this.transform.parent.parent.name + " Object Menu";
             //changes the text to the Name
             changeTextColor();
         }
