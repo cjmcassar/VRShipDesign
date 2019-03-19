@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using VRTK;
 
 public class ObjectName : MonoBehaviour 
 
@@ -11,6 +12,9 @@ public class ObjectName : MonoBehaviour
 
     public bool displayName = true;
     public bool displayTAG = false;
+
+    public VRTK_RadialMenu radialMenu;
+
 
     // Use this for initialization
     void Start()
@@ -56,8 +60,6 @@ public class ObjectName : MonoBehaviour
         }
     }
 
-   
-
     //Changes the color
     public void changeTextColor()
     {
@@ -66,6 +68,21 @@ public class ObjectName : MonoBehaviour
         TextMesh tm = GetComponent<TextMesh>();
         tm.text = textToDisplay;
     }
+
+    //Hides name when menu is hidden
+
+    //public void HideMenuName()
+    //{
+    //    ;
+
+    //    if (VRTK_RadialMenu.HideMenu(bool))
+    //    {
+
+    //    }
+    //}
+
+    // TODO, finish the hide menu name method
+
 }
 
 
