@@ -29,7 +29,7 @@ namespace AsImpL
         public static void AutoCaptureScreenshot(string prefix)
         {
             string fileName = prefix+"-"+DateTime.Now.ToString("s").Replace('T','_').Replace(':','-')+".png";
-            ScreenCapture.CaptureScreenshot(fileName);
+            Application.CaptureScreenshot(fileName);
             Debug.Log("Screenshot saved to " + Application.dataPath+"/" + fileName);
             EditorUtility.RevealInFinder(Application.dataPath);
         }

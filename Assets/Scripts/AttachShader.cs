@@ -5,65 +5,61 @@ using VRTK;
 public class AttachShader : MonoBehaviour
 {
     public GameObject myObject;
-    public List<GameObject> childrenList = new List<GameObject>();
+    public List<GameObject> parentList = new List<GameObject>();
 
-    // AttachScript description
-    // finds out if named object has script added to it already
-    // if it doesnt then it adds it
-    // if it does then it stops the function
+    #region Old Code
+    //public void Start()
+    //{
+    //    AttachScripts();
+    //}
+    #endregion Old Code
 
-    public void Start()
-    {
-        AttachScripts();
-    }
-
+    /// <AttachScript description>
+    /// finds out if named object has script added to it already
+    /// if it doesnt then it adds it
+    /// if it does then it stops the function
+    ///</AttachScript>
     public void AttachScripts()
     {
         myObject = GameObject.Find("MyObject");
-        Transform[] children = GetComponentsInChildren<Transform>(true);
+        Transform parents = GetComponentInParent<Transform>();
 
-        if (childrenList == null)
+        if (parentList == null)
         {
-            childrenList = new List<GameObject>();
+            parentList = new List<GameObject>();
         }
 
-        foreach (Transform child in children)
+        foreach (Transform parent in parents)
         {
-            childrenList.Add(child.gameObject);
+            parentList.Add(parent.gameObject);
         }
 
-        MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+        #region Old Code
+        //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
+        //{
+        //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
+        //    myObject.AddComponent<AttachMaterial>();
+        //}
+        //else if (myObject.name != "MyObject")
+        //{
+        //    print("Object has script already");
+        //    return;
+        //}
+        #endregion
 
-        for (int i = 0; i < renderers.Length; i++)
+        MeshRenderer renderer = GetComponentInParent<MeshRenderer>();
+
+        if (renderer != null)
         {
-
-            if (renderers != null)
-            {
-                renderers[i].gameObject.AddComponent<OnePlaneCuttingControllerVR>();
-                renderers[i].gameObject.AddComponent<AttachMaterial>();
-            }
-
-            else if (renderers == null)
-            {
-                break;
-            }
-
+            renderer.gameObject.AddComponent<OnePlaneCuttingConnectorVR>();
+            renderer.gameObject.AddComponent<ChangeMaterial>();
+            renderer.gameObject.AddComponent<QuadLocation>();
         }
+
 
     }
 
-    //if (myObject.name == "MyObject" && myObject.GetComponentInChildren<Transform>(true))
-    //{
-    //    myObject.AddComponent<OnePlaneCuttingControllerVR>();
-    //    myObject.AddComponent<AttachMaterial>();
-    //}
-    //else if (myObject.name != "MyObject")
-    //{
-    //    print("Object has script already");
-    //    return;
-    //}
-
-
+    #region Old Code
     //void Update()
     //{
     //    FindObject();
@@ -88,4 +84,5 @@ public class AttachShader : MonoBehaviour
 
 
     //TODO figure out a way to choose object layer through GUI
+    #endregion
 }

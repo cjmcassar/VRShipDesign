@@ -19,7 +19,7 @@ public class VRDistanceMeasurer : MonoBehaviour
     private List<GameObject> markers;
 
     [SerializeField]
-    private Text label;
+    private TextMesh label;
 
     [SerializeField]
     private Material material;
@@ -38,13 +38,13 @@ public class VRDistanceMeasurer : MonoBehaviour
     private void OnEnable()
     {
         for (int i = 0; i < controllerEvents.Length; i++)
-            controllerEvents[i].ButtonOneReleased += OnTriggerReleased;
+            controllerEvents[i].TouchpadReleased += OnTriggerReleased;
     }
 
     private void OnDisable()
     {
         for (int i = 0; i < controllerEvents.Length; i++)
-            controllerEvents[i].ButtonOneReleased -= OnTriggerReleased;
+            controllerEvents[i].TouchpadReleased -= OnTriggerReleased;
     }
 
     private void OnTriggerReleased(object sender, ControllerInteractionEventArgs e)

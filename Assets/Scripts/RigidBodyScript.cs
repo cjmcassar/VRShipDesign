@@ -7,21 +7,19 @@ using System;
 
 public class RigidBodyScript : MonoBehaviour
 {
-
+    #region Old Code
     //public Rigidbody bodyRigidbody;
     //public Rigidbody customPlayAreaRigidbod;
     //public float bodyMass = 0f;
     //public Transform playArea;
     //public bool generateRigidbody = false;
 
+    //GameObject myObject = GameObject.Find("MyObject");
+    #endregion 
 
     public List<GameObject> childrenList = new List<GameObject>();
 
     public GameObject preFab;
-
-    //GameObject myObject = GameObject.Find("MyObject");
-
-
 
     void Start()
     {
@@ -29,12 +27,12 @@ public class RigidBodyScript : MonoBehaviour
     }
 
 
-    /// <summary>
+    /// <AddDecendants Description>
     /// Looks through childrenList for children with transforms
     /// These children are then referenced in the script
     /// The code then looks through the children with a meshrenderer
     /// Each object with a meshrenderer gets a mesh collider and rigid body
-    /// </summary>
+    /// </AddDecendants Description>
     private void AddDecendants()
     {
         childrenList.Clear();
@@ -54,23 +52,26 @@ public class RigidBodyScript : MonoBehaviour
             childrenList.Add(child.gameObject);
         }
 
-
         MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
         Component interactableScript = GetComponent<VRTK_InteractableObject>();
 
         for (int i = 0; i < renderers.Length; i++)
         {
             MeshCollider meshCollider = renderers[i].GetComponent<MeshCollider>();
-            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>();
-            
+            #region Rigidbody 
+            //Rigidbody rigidBody = renderers[i].GetComponent<Rigidbody>(); 
+            #endregion
+
 
             if (meshCollider == null /*&& rigidBody == null*/)
             {
                 meshCollider = renderers[i].gameObject.AddComponent<MeshCollider>();
                 meshCollider.convex = false;
+                #region RigidBody
                 //rigidBody = renderers[i].gameObject.AddComponent<Rigidbody>();
                 //rigidBody.useGravity = false;
                 //rigidBody.isKinematic = true;
+                #endregion
                 interactableScript = renderers[i].gameObject.AddComponent<VRTK_InteractableObject>();
 
                 GameObject radialmenu = GameObject.Instantiate(preFab);
@@ -87,6 +88,7 @@ public class RigidBodyScript : MonoBehaviour
 
     }
 
+    #region Old Code
     //private void AddRigidBody()
     //{
     //    if (customPlayAreaRigidbody != null)
@@ -127,11 +129,12 @@ public class RigidBodyScript : MonoBehaviour
     //        return false;
     //    }
     //}
+    #endregion
 }
 
 
 
-
+#region Old Code
 //for (int i = 0; i < childrenList.Count; i++)
 //{
 //    Mesh mesh = childrenList[i].GetComponent<Mesh>();
@@ -146,3 +149,4 @@ public class RigidBodyScript : MonoBehaviour
 //        rb.useGravity = false;
 //        rb.isKinematic = true;
 ////    }
+#endregion
