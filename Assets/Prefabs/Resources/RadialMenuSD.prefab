@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4133874841169294}
   - component: {fileID: 23470647970651062}
   - component: {fileID: 102594895705910970}
-  - component: {fileID: 114617460167209854}
+  - component: {fileID: 114677173031693122}
   m_Layer: 0
   m_Name: MenuName
   m_TagString: Untagged
@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 224887652918657204}
   - component: {fileID: 223899871262140238}
   - component: {fileID: 114530488621723550}
+  - component: {fileID: 114566739509331762}
   m_Layer: 5
   m_Name: RadialMenuUI
   m_TagString: Untagged
@@ -348,20 +349,20 @@ MonoBehaviour:
   baseHapticStrength: 0.161
   deadZone: 0
   menuButtons: []
---- !u!114 &114617460167209854
+--- !u!114 &114566739509331762
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1752547602807600}
+  m_GameObject: {fileID: 1821240212595440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca424f0b7a58da47b800bf01c2f1e67, type: 3}
+  m_Script: {fileID: 11500000, guid: b6be5f836b223df468b3f6783a383947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  displayName: 1
-  displayTAG: 0
+  menuNameObject: {fileID: 1752547602807600}
+  equipmentObject: {fileID: 0}
+  collider: {fileID: 0}
 --- !u!114 &114621710468016492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -375,6 +376,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myObject: {fileID: 0}
   parentList: []
+--- !u!114 &114677173031693122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752547602807600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca424f0b7a58da47b800bf01c2f1e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: 1
+  displayTAG: 0
 --- !u!114 &114898583613035254
 MonoBehaviour:
   m_ObjectHideFlags: 1

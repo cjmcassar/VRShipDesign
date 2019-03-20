@@ -5,31 +5,32 @@ using UnityEngine.UI;
 using VRTK;
 
 public class ObjectName : MonoBehaviour 
-
 {
-    public Transform target;
+
+    //public Transform target;
+
     private string textToDisplay;
+    
 
     public bool displayName = true;
     public bool displayTAG = false;
-
-    public VRTK_RadialMenu radialMenu;
-
+   
 
     // Use this for initialization
     void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
     {
         nameDisplayer();
         tagDisplayer();
     }
 
+    private void Update()
+    {
+  
+    }
+
     void LateUpdate()
     {
+
         //Make the text allways face the camera
         //transform.rotation = Camera.main.transform.rotation;
     }
@@ -37,14 +38,14 @@ public class ObjectName : MonoBehaviour
     //displays the name of the parent
     void nameDisplayer()
     {
-
-
         if (displayName)
         {
             displayTAG = false;
-            textToDisplay = (string)this.transform.parent.parent.name + " Object Menu";
-            //changes the text to the Name
+            textToDisplay = (string)this.transform.parent.parent.name + " Object Menu"; //changes the text to the Name
+
             changeTextColor();
+
+            
         }
     }
 
@@ -55,7 +56,7 @@ public class ObjectName : MonoBehaviour
         {
             displayName = false;
             //changes the text to the TAG
-            textToDisplay = (string)this.transform.parent.tag;
+            textToDisplay = (string)this.transform.parent.parent.tag;
             changeTextColor();
         }
     }
@@ -63,26 +64,9 @@ public class ObjectName : MonoBehaviour
     //Changes the color
     public void changeTextColor()
     {
-
-       
         TextMesh tm = GetComponent<TextMesh>();
         tm.text = textToDisplay;
     }
-
-    //Hides name when menu is hidden
-
-    //public void HideMenuName()
-    //{
-    //    ;
-
-    //    if (VRTK_RadialMenu.HideMenu(bool))
-    //    {
-
-    //    }
-    //}
-
-    // TODO, finish the hide menu name method
-
 }
 
 
