@@ -21,7 +21,7 @@ public class HideNameObject : MonoBehaviour {
 
     public void HideMenuName()
     {
-        equipmentObject = menuNameObject.transform.parent.parent.gameObject;
+        equipmentObject = this.transform.parent.gameObject;
         collider = equipmentObject.GetComponent<SphereCollider>();
 
         if (!collider.enabled)

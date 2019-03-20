@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 114466641302353468}
   - component: {fileID: 114621710468016492}
   - component: {fileID: 114068642356840906}
+  - component: {fileID: 114841349340915104}
   m_Layer: 0
   m_Name: RadialMenuSD
   m_TagString: Untagged
@@ -75,7 +76,6 @@ GameObject:
   - component: {fileID: 224887652918657204}
   - component: {fileID: 223899871262140238}
   - component: {fileID: 114530488621723550}
-  - component: {fileID: 114566739509331762}
   m_Layer: 5
   m_Name: RadialMenuUI
   m_TagString: Untagged
@@ -349,20 +349,6 @@ MonoBehaviour:
   baseHapticStrength: 0.161
   deadZone: 0
   menuButtons: []
---- !u!114 &114566739509331762
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1821240212595440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6be5f836b223df468b3f6783a383947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menuNameObject: {fileID: 1752547602807600}
-  equipmentObject: {fileID: 0}
-  collider: {fileID: 0}
 --- !u!114 &114621710468016492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -389,6 +375,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: 1
   displayTAG: 0
+--- !u!114 &114841349340915104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764755515367414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6be5f836b223df468b3f6783a383947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuNameObject: {fileID: 1752547602807600}
+  equipmentObject: {fileID: 0}
+  collider: {fileID: 0}
 --- !u!114 &114898583613035254
 MonoBehaviour:
   m_ObjectHideFlags: 1
