@@ -47,3 +47,659 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 Assets/SDKs/AsImpL/UnityStandaloneFileBrowser-master/Plugins/MacOS/
+Assets/2dHUD.meta
+Assets/Editor.meta
+Assets/SDKs/Standard Assets/Utility/SmoothFollow.cs
+Assets/SDKs/Standard Assets/Utility/SimpleMouseRotator.cs.meta
+Assets/SDKs/Standard Assets/Utility/SimpleMouseRotator.cs
+Assets/SDKs/Standard Assets/Utility/SimpleActivatorMenu.cs.meta
+Assets/SDKs/Standard Assets/Utility/SimpleActivatorMenu.cs
+Assets/SDKs/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta
+Assets/SDKs/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+Assets/SDKs/Standard Assets/Utility/Prefabs.meta
+Assets/SDKs/Standard Assets/Utility/PlatformSpecificContent.cs.meta
+Assets/SDKs/Standard Assets/Utility/PlatformSpecificContent.cs
+Assets/SDKs/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta
+Assets/SDKs/Standard Assets/Utility/ParticleSystemDestroyer.cs
+Assets/SDKs/Standard Assets/Utility/ObjectResetter.cs.meta
+Assets/SDKs/Standard Assets/Utility/ObjectResetter.cs
+Assets/SDKs/Standard Assets/Utility/LerpControlledBob.cs.meta
+Assets/SDKs/Standard Assets/Utility/LerpControlledBob.cs
+Assets/SDKs/Standard Assets/Utility/ForcedReset.cs.meta
+Assets/SDKs/Standard Assets/Utility/ForcedReset.cs
+Assets/SDKs/Standard Assets/Utility/FollowTarget.cs.meta
+Assets/SDKs/Standard Assets/Utility/FollowTarget.cs
+Assets/SDKs/Standard Assets/Utility/FPSCounter.cs.meta
+Assets/SDKs/Standard Assets/Utility/FPSCounter.cs
+Assets/SDKs/Standard Assets/Utility/FOVKick.cs.meta
+Assets/SDKs/Standard Assets/Utility/FOVKick.cs
+Assets/SDKs/Standard Assets/Utility/EventSystemChecker.cs.meta
+Assets/SDKs/Standard Assets/Utility/EventSystemChecker.cs
+Assets/SDKs/Standard Assets/Utility/DynamicShadowSettings.cs.meta
+Assets/SDKs/Standard Assets/Utility/DynamicShadowSettings.cs
+Assets/SDKs/Standard Assets/Utility/DragRigidbody.cs.meta
+Assets/SDKs/Standard Assets/Utility/DragRigidbody.cs
+Assets/SDKs/Standard Assets/Utility/CurveControlledBob.cs.meta
+Assets/SDKs/Standard Assets/Utility/CurveControlledBob.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/Noise.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation (1).shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation (1).shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta
+Assets/Models/Unify Import/Plugins/System.Drawing.dll
+Assets/Models/Unify Import/Plugins/Newtonsoft.Json.dll.meta
+Assets/Models/Unify Import/Plugins/Newtonsoft.Json.dll
+Assets/Models/Unify Import/Plugins.meta
+Assets/Models/Unify Import/Materials/defaultMat.mat.meta
+Assets/Models/Unify Import/Materials/defaultMat.mat
+Assets/Models/Unify Import/Materials/Layer_0Mat.mat.meta
+Assets/Models/Unify Import/Materials/Layer_0Mat.mat
+Assets/Models/Unify Import/Materials/Design_Topsides_Starboard_TopsideMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Topsides_Starboard_TopsideMat.mat
+Assets/Models/Unify Import/Materials/Design_Topsides_Portside_TopsideMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Topsides_Portside_TopsideMat.mat
+Assets/Models/Unify Import/Materials/Design_TopsidesMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_TopsidesMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_4Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_4Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_53Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_52Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_52Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_51Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_51Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_50Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_50Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_49Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_49Mat.mat
+Assets/Models/Unify Import/Materials.meta
+Assets/Models/Unify Import/Editor/ImportAssets.cs.meta
+Assets/Models/Unify Import/Editor/ImportAssets.cs
+Assets/Models/Unify Import/Editor/CreateLayers.cs.meta
+Assets/Models/Unify Import/Editor/CreateLayers.cs
+Assets/Models/Unify Import/Editor.meta
+Assets/Models/Unify Import.meta
+Assets/2dHUD/Button_Cameras_Hover.png.meta
+Assets/2dHUD/Button_Cameras_Hover.png
+Assets/2dHUD/Button_Cameras_Base.png.meta
+Assets/2dHUD/Button_Cameras_Base.png
+Assets/2dHUD/ArrowDown.png.meta
+Assets/2dHUD/ArrowDown.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction (1).shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction (1).shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance (1).shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance (1).shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+Assets/SDKs/Standard Assets/CrossPlatformInput.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_3Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_3Mat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_2Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_2Mat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_1Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_SS_Bulkheads_SS_Bulkhead_1Mat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Starboard_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Starboard_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Portside_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Portside_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Main_DeckMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Main_DeckMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Forward_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Forward_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Deck_02_Portside_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Deck_02_Portside_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Deck_01_Starboard_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Deck_01_Starboard_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_CeilingMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_CeilingMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Starboard_AngleMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Starboard_AngleMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Portside_AngleMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Portside_AngleMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Foward_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Bridge_Foward_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Aft_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Outer_Frame_Aft_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Ops_Room_Equipment_Ops_Room_Starboad_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Ops_Room_Equipment_Ops_Room_Starboad_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Ops_Room_Equipment_Ops_Room_Portside_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Ops_Room_Equipment_Ops_Room_Portside_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Decks_Deck_02Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Decks_Deck_02Mat.mat
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Decks_Deck_01Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Super_Structure_Decks_Deck_01Mat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Starboard_Double_BottomMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Starboard_Double_BottomMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Portside_Double_BottomMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Portside_Double_BottomMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Deck_4__Upper_Layer_Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_4_Deck_4__Upper_Layer_Mat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_3_StarboardMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_3_StarboardMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_3_PortsideMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_3_PortsideMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_2_StarboardMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_2_StarboardMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_2_PortsideMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_2_PortsideMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_1_StarboardMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_1_StarboardMat.mat
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_1_PortsideMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Hull_Decks_Deck_1_PortsideMat.mat
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Urea_Tank_1Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Urea_Tank_1Mat.mat
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Engine_2__W32_Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Engine_2__W32_Mat.mat
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Engine_1__W32_Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Engine_Room_Equipment_Engine_1__W32_Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_TransomMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_TransomMat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Collision_BulkheadMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Collision_BulkheadMat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_8_Transverse_WallMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_8_Transverse_WallMat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_8_BulkheadMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_8_BulkheadMat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_7Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_7Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_6Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_6Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_5Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_5Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_4Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_4Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_3Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_3Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_2Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_2Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_1Mat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bulkheads_Bulkhead_1Mat.mat
+Assets/Models/Unify Import/Materials/Design_Bottom_Starboard_BottomMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bottom_Starboard_BottomMat.mat
+Assets/Models/Unify Import/Materials/Design_Bottom_Portside_BottomMat.mat.meta
+Assets/Models/Unify Import/Materials/Design_Bottom_Portside_BottomMat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_96Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_96Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_95Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_95Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_94Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_94Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_93Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_93Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_92Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_92Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_91Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_91Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_90Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_90Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_89Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_89Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_88Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_88Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_87Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_87Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_86Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_86Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_85Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_85Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_84Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_84Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_83Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_83Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_82Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_82Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_81Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_81Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_80Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_80Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_79Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_79Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_78Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_78Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_77Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_77Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_76Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_76Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_75Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_75Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_74Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_74Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_73Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_73Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_72Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_72Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_71Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_71Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_70Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_70Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_69Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_69Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_68Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_68Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_67Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_67Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_66Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_66Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_65Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_65Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_64Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_64Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_63Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_63Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_62Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_62Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_61Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_61Mat.mat
+Assets/Scripts/MenuTimeDay.cs.meta
+Assets/Scripts/MenuTimeDay.cs
+Assets/Scripts/MenuDesignOptions.cs.meta
+Assets/Scripts/MenuDesignOptions.cs
+Assets/Scripts/MenuCharacter.cs.meta
+Assets/Scripts/MenuCharacter.cs
+Assets/Scripts/MenuCameras.cs.meta
+Assets/Scripts/MenuCameras.cs
+Assets/Scripts/KeyboardShortcuts.cs.meta
+Assets/Scripts/KeyboardShortcuts.cs
+Assets/SDKs/Standard Assets/Utility/WaypointProgressTracker.cs.meta
+Assets/SDKs/Standard Assets/Utility/WaypointProgressTracker.cs
+Assets/SDKs/Standard Assets/Utility/WaypointCircuit.cs.meta
+Assets/SDKs/Standard Assets/Utility/WaypointCircuit.cs
+Assets/SDKs/Standard Assets/Utility/TimedObjectDestructor.cs.meta
+Assets/SDKs/Standard Assets/Utility/TimedObjectDestructor.cs
+Assets/SDKs/Standard Assets/Utility/TimedObjectActivator.cs.meta
+Assets/SDKs/Standard Assets/Utility/TimedObjectActivator.cs
+Assets/SDKs/Standard Assets/Utility/SmoothFollow.cs.meta
+Assets/SDKs/Standard Assets/Utility/CameraRefocus.cs.meta
+Assets/SDKs/Standard Assets/Utility/CameraRefocus.cs
+Assets/SDKs/Standard Assets/Utility/AutoMoveAndRotate.cs.meta
+Assets/SDKs/Standard Assets/Utility/AutoMoveAndRotate.cs
+Assets/SDKs/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta
+Assets/SDKs/Standard Assets/Utility/AutoMobileShaderSwitch.cs
+Assets/SDKs/Standard Assets/Utility/ActivateTrigger.cs.meta
+Assets/SDKs/Standard Assets/Utility/ActivateTrigger.cs
+Assets/SDKs/Standard Assets/Utility.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Textures.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2 (1).shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2 (1).shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Shaders.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/desktop.ini.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/desktop.ini
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+Assets/SDKs/Standard Assets/Effects/ImageEffects/Scripts.meta
+Assets/SDKs/Standard Assets/Effects/ImageEffects.meta
+Assets/SDKs/Standard Assets/Effects.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+Assets/SDKs/Standard Assets/CrossPlatformInput/Scripts.meta
+Assets/SDKs/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+Assets/SDKs/Standard Assets/Characters/FirstPersonCharacter.meta
+Assets/SDKs/Standard Assets/Characters.meta
+Assets/SDKs/Standard Assets.meta
+Assets/Resources/togglePrefab.prefab.meta
+Assets/Resources/togglePrefab.prefab
+Assets/Resources/UnifyPrefabs.prefab.meta
+Assets/Resources/UnifyPrefabs.prefab
+Assets/Resources.meta
+Assets/Models/Unify Import/Scripts/Utilities.cs.meta
+Assets/Models/Unify Import/Scripts/Utilities.cs
+Assets/Models/Unify Import/Scripts.meta
+Assets/Models/Unify Import/Resources/UnifySettings.txt.meta
+Assets/Models/Unify Import/Resources/UnifySettings.txt
+Assets/Models/Unify Import/Resources/UnifyPackage.unitypackage.meta
+Assets/Models/Unify Import/Resources.meta
+Assets/Models/Unify Import/Plugins/UnifyCommon.dll.meta
+Assets/Models/Unify Import/Plugins/UnifyCommon.dll
+Assets/Models/Unify Import/Plugins/System.Windows.Forms.dll.meta
+Assets/Models/Unify Import/Plugins/System.Windows.Forms.dll
+Assets/Models/Unify Import/Plugins/System.Drawing.dll.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_60Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_60Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_59Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_59Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_58Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_58Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_57Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_57Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_56Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_56Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_55Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_55Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_54Mat.mat.meta
+Assets/Models/Unify Import/Materials/CLARK_Internals_54Mat.mat
+Assets/Models/Unify Import/Materials/CLARK_Internals_53Mat.mat.meta
+Assets/Models/Test.obj.meta
+Assets/Models/Test.obj
+Assets/Editor/ImageEffects/DepthOfFieldEditor.cs.meta
+Assets/Editor/ImageEffects/DepthOfFieldEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta
+Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta
+Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta
+Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs
+Assets/Editor/ImageEffects/BloomEditor.cs.meta
+Assets/Editor/ImageEffects/BloomEditor.cs
+Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta
+Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs
+Assets/Editor/ImageEffects.meta
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+Assets/Editor/CrossPlatformInput.meta
+Assets/2dHUD/Icon_SaveImage_Base.png.meta
+Assets/2dHUD/Icon_SaveImage_Base.png
+Assets/2dHUD/Dropdown_Handle_Hover.png.meta
+Assets/2dHUD/Dropdown_Handle_Hover.png
+Assets/2dHUD/Dropdown_Handle.png.meta
+Assets/2dHUD/Dropdown_Handle.png
+Assets/2dHUD/Checkmark.png.meta
+Assets/2dHUD/Checkmark.png
+Assets/2dHUD/Canvas_MainPanel.png.meta
+Assets/2dHUD/Canvas_MainPanel.png
+Assets/2dHUD/Button_TimeDay_Hover.png.meta
+Assets/2dHUD/Button_TimeDay_Hover.png
+Assets/2dHUD/Button_TimeDay_Base.png.meta
+Assets/2dHUD/Button_TimeDay_Base.png
+Assets/2dHUD/Button_Light_Hover.png.meta
+Assets/2dHUD/Button_Light_Hover.png
+Assets/2dHUD/Button_Light_Base.png.meta
+Assets/2dHUD/Button_Light_Base.png
+Assets/2dHUD/Button_DesignOptions_Hover.png.meta
+Assets/2dHUD/Button_DesignOptions_Hover.png
+Assets/2dHUD/Button_DesignOptions_Base.png.meta
+Assets/2dHUD/Button_DesignOptions_Base.png
+Assets/2dHUD/Button_Close_Hover.png.meta
+Assets/2dHUD/Button_Close_Hover.png
+Assets/2dHUD/Button_Close_Base.png.meta
+Assets/2dHUD/Button_Close_Base.png
+Assets/2dHUD/Button_Character_Hover.png.meta
+Assets/2dHUD/Button_Character_Hover.png
+Assets/2dHUD/Button_Character_Base.png.meta
+Assets/2dHUD/Button_Character_Base.png
