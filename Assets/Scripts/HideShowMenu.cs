@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class HideShowMenu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
+    public GameObject gameObject;
 	// Update is called once per frame
-	void Update () {
-		
+	public void ToggleMenu()
+    {
+        renderer.enabled = !renderer.enabled;
 	}
 }
