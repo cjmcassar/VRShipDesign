@@ -2480,11 +2480,60 @@ Prefab:
     - target: {fileID: 114472970439643044, guid: 05c5541cb7dc85e40b738402c26b5300,
         type: 2}
       propertyPath: clickOnPointerCollision
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114517214581624896, guid: 05c5541cb7dc85e40b738402c26b5300,
+        type: 2}
+      propertyPath: grabButton
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275254134586016, guid: 05c5541cb7dc85e40b738402c26b5300,
+        type: 2}
+      propertyPath: activationButton
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275254134586016, guid: 05c5541cb7dc85e40b738402c26b5300,
+        type: 2}
+      propertyPath: selectionButton
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05c5541cb7dc85e40b738402c26b5300, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &583917827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1104669603354184, guid: 05c5541cb7dc85e40b738402c26b5300,
+    type: 2}
+  m_PrefabInternal: {fileID: 373182707}
+--- !u!114 &583917829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583917827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b26f999cbdac8478b6c2a046256169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationButton: 8
+  activationMode: 0
+  selectionButton: 3
+  clickMethod: 1
+  attemptClickOnDeactivate: 0
+  clickAfterHoverDuration: 0
+  maximumLength: Infinity
+  attachedTo: {fileID: 0}
+  controllerEvents: {fileID: 0}
+  customOrigin: {fileID: 0}
+  controller: {fileID: 0}
+  pointerOriginTransform: {fileID: 0}
+  hoveringElement: {fileID: 0}
+  controllerRenderModel: {fileID: 0}
+  hoverDurationTimer: 0
+  canClickOnHover: 0
+  autoActivatingCanvas: {fileID: 0}
+  collisionClick: 0
 --- !u!114 &1042920231 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114633954166466642, guid: 05c5541cb7dc85e40b738402c26b5300,
