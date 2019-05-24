@@ -1158,6 +1158,7 @@ GameObject:
   - component: {fileID: 114616469248353594}
   - component: {fileID: 114591493903778232}
   - component: {fileID: 114904124470595006}
+  - component: {fileID: 114771174669365688}
   m_Layer: 5
   m_Name: AvatarCanvas
   m_TagString: Untagged
@@ -1198,6 +1199,7 @@ GameObject:
   - component: {fileID: 114968481350722476}
   - component: {fileID: 114472970439643044}
   - component: {fileID: 114907578309818992}
+  - component: {fileID: 114261725887203096}
   m_Layer: 5
   m_Name: ItemCanvas
   m_TagString: Untagged
@@ -4792,7 +4794,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114074283881926868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114771174669365688}
+        m_MethodName: UploadSF
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114150936506991234
@@ -5449,6 +5462,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114261725887203096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1506597186846292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29176b900a23ce45ac2a8aed2923034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  ObjectToHide: {fileID: 0}
+  INS: {fileID: 0}
+  INSClone: {fileID: 0}
 --- !u!114 &114262171481631270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7836,6 +7864,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114771174669365688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496400205925148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f182de7a5e3c9414e8c71dfdff3fa797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  ObjectToHide: {fileID: 0}
+  SixFoot: {fileID: 0}
+  SixFootClone: {fileID: 0}
 --- !u!114 &114775846090238120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7956,7 +7999,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114261352600425568}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114261725887203096}
+        m_MethodName: UploadINS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114829205255839680

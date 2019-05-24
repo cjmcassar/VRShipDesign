@@ -23,14 +23,8 @@ public class ObjectName : MonoBehaviour
         tagDisplayer();
     }
 
-    private void Update()
-    {
-  
-    }
-
     void LateUpdate()
     {
-
         //Make the text allways face the camera
         //transform.rotation = Camera.main.transform.rotation;
     }
@@ -43,9 +37,7 @@ public class ObjectName : MonoBehaviour
             displayTAG = false;
             textToDisplay = (string)this.transform.parent.parent.name + " Object Menu"; //changes the text to the Name
 
-            changeTextColor();
-
-            
+            changeTextColor(); 
         }
     }
 
