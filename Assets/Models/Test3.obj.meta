@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 5bbf5dfde7d92d94283f8be0dc2de64f
-timeCreated: 1558185305
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: AC_Console
     100002: Air_Picture_Supervisor
@@ -547,10 +545,552 @@ ModelImporter:
     4300210: SWBO_Console
     4300212: TPS_Link_Manager
     4300214: Urea_Tank_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AC_ConsoleMat
+    second: {fileID: 2100000, guid: 48beb9e7fc7c4ca4baa178c5d314d616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: APS_ConsoleMat
+    second: {fileID: 2100000, guid: 15e4935e42789d540abf129841075c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ASMOMat
+    second: {fileID: 2100000, guid: ce856f25d87f01543ac3bccf63997f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ASMO_ConsoleMat
+    second: {fileID: 2100000, guid: 7df0a4158402bb4418c98152a2a7c57c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Air_Picture_SupervisorMat
+    second: {fileID: 2100000, guid: 60254d8609915a94fbde37b280a7cc9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aircraft_ControllerMat
+    second: {fileID: 2100000, guid: 03e5fc190af8f084db5fbf132174b750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_1Mat
+    second: {fileID: 2100000, guid: 21087b29cab269e43bccba04986ba0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_2Mat
+    second: {fileID: 2100000, guid: db7af5aa4cfda2d40aaa2db9c16d9515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_3Mat
+    second: {fileID: 2100000, guid: 554048049da10754a8c190072ee0b3f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_4Mat
+    second: {fileID: 2100000, guid: 27e7b0ccf73d969409a361f6ce70dbc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_5Mat
+    second: {fileID: 2100000, guid: 53741de9f120ffa439dbf72548509938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_6Mat
+    second: {fileID: 2100000, guid: 782975a56dea6e44b81500e2777eb1dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_7Mat
+    second: {fileID: 2100000, guid: 778a4aaa238f5dd4496904eab6530b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_8Mat
+    second: {fileID: 2100000, guid: 83077cdfaf46eeb4eb4312a9d3f5566e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkhead_8_Transverse_WallMat
+    second: {fileID: 2100000, guid: eb0b8a39c32dd384f9036c434c582646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulkheads_TransomMat
+    second: {fileID: 2100000, guid: c2bc87f706744924bbc121ceb6941fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CA_ConsoleMat
+    second: {fileID: 2100000, guid: 400aa96c3651b8d4fb69eb91fd5b1fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COMat
+    second: {fileID: 2100000, guid: 02fb72e35391f274d8d699fe1e92a2b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CO_ChairMat
+    second: {fileID: 2100000, guid: fd9cb51d5c359b64e8b6d2d112c2d293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CO_ConsoleMat
+    second: {fileID: 2100000, guid: f9b8c58bc590636448a068cd3679810f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CSS_GOPMat
+    second: {fileID: 2100000, guid: 13cceec5d78b56342a9992cfa3fb8fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CSS_GOP_ConsoleMat
+    second: {fileID: 2100000, guid: 0d135ea8602f9b04aba889f1cfc74b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Collision_BulkheadMat
+    second: {fileID: 2100000, guid: 56c75a052c7eab444a3b0a3efa0d90df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Command_Advisor__IB_Mat
+    second: {fileID: 2100000, guid: 8aea6cfad86270044a70249f459d4645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_1_PortsideMat
+    second: {fileID: 2100000, guid: 6983f48adb002234abc3478e1c961c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_1_StarboardMat
+    second: {fileID: 2100000, guid: d622689b2936a9546aca63627d469e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_2_PortsideMat
+    second: {fileID: 2100000, guid: fd127d130906ea04c8b5b023f55b4a3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_2_StarboardMat
+    second: {fileID: 2100000, guid: 8c76c2cb180e62f42ba8ac0ae17e4dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_3_PortsideMat
+    second: {fileID: 2100000, guid: 88db6ec6600dddc45ac127994cdb990a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_3_StarboardMat
+    second: {fileID: 2100000, guid: 0ff88f2c42144ba4eac29c99ab9ba80b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_4_Deck_4_Upper_LayerMat
+    second: {fileID: 2100000, guid: a9c60f5b096e09d43b497a0931c47929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_4_Portside_Double_BottomMat
+    second: {fileID: 2100000, guid: ebd04b1496058594dbf8f466ced4b3ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deck_4_Starboard_Double_BottomMat
+    second: {fileID: 2100000, guid: b3cf527218c89f84b9dd93210aeaddc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EWDMat
+    second: {fileID: 2100000, guid: 89d9f20d42dc8304d80d861865ec0093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EWD_ConsoleMat
+    second: {fileID: 2100000, guid: 35e5b7737fed60a4297390d05f86a94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EWOMat
+    second: {fileID: 2100000, guid: b4f2656d0f95fab43b3abcea786df60a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EWO_ConsoleMat
+    second: {fileID: 2100000, guid: d1283ae18d0461343b93c40a967a4004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engine_1_W32Mat
+    second: {fileID: 2100000, guid: 8a35d04d79e00cb4e9bc6eeb5266fc2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engine_2_W32Mat
+    second: {fileID: 2100000, guid: 408439c3523425643bb4076343ec6d00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: External_CommMat
+    second: {fileID: 2100000, guid: f5e8a0dde8a040a4d9710a11dc622739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HelmsmanMat
+    second: {fileID: 2100000, guid: df3287f110b39744383b8d18c4c70634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_1PMat
+    second: {fileID: 2100000, guid: 5683b6b19376ddd4c9881ef48f632545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_1SMat
+    second: {fileID: 2100000, guid: 0bf0a00d777cbae498b9f4b0610de71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_2PMat
+    second: {fileID: 2100000, guid: b8799f3df478f164bba9eca2208f3617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_2SMat
+    second: {fileID: 2100000, guid: f0b68f0192fd3a142b8f216d63c63a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_3PMat
+    second: {fileID: 2100000, guid: 34b95847807f6f84788dafd341225b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_3S_001Mat
+    second: {fileID: 2100000, guid: 4b853b1ce441aba4a99000247987c014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_4PMat
+    second: {fileID: 2100000, guid: f6cf21043b958f846a16e0d4db4fc165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_4P_001Mat
+    second: {fileID: 2100000, guid: 5ecabd5b96a7bd542b4cc39c048a37cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_4SMat
+    second: {fileID: 2100000, guid: 879a232638cfe6546b41df974c3f8567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_5PMat
+    second: {fileID: 2100000, guid: 9a743f6c22bbc9541bf5fe75edfa1486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_5SMat
+    second: {fileID: 2100000, guid: c5fb298a9517ce341930e2bd8231ba7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INS_6PMat
+    second: {fileID: 2100000, guid: 10a0df7ce628eea449abd9d05e2969d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LM_ConsoleMat
+    second: {fileID: 2100000, guid: cf322a63c6ac633468e6a518c25a4128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MCGSOMat
+    second: {fileID: 2100000, guid: 86c89e9c6c9a47c4082eca554ca1d748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MCGSO_ConsoleMat
+    second: {fileID: 2100000, guid: 54d7a75701928c04aa671a3cf4c5e67b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MD_ConsoleMat
+    second: {fileID: 2100000, guid: d4cc224d10373694c90617d6af3fb723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MSGMat
+    second: {fileID: 2100000, guid: 861553673374a9b4cb5e3af597e38ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Machinery_ControlMat
+    second: {fileID: 2100000, guid: 45c3e319d4bf9ae42908fea6e6879f68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Missile_DirectorMat
+    second: {fileID: 2100000, guid: 67a232e343d6d0245b8ef18250510b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NBMat
+    second: {fileID: 2100000, guid: 126fe009243122b4082d4e674e248b8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navigation_ScreenMat
+    second: {fileID: 2100000, guid: 1c53615a9d97a0746bea2c72515f816b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ops_Room_Portside_WallMat
+    second: {fileID: 2100000, guid: 7e07a9b05c296624eb102ddc9bd37ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ops_Room_Starboard_WallMat
+    second: {fileID: 2100000, guid: 3a2d65e1a0421ab40b0beb88419fc653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWBOMat
+    second: {fileID: 2100000, guid: 45378cc2dfb22e14a9651f919e74e27b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWBO_001Mat
+    second: {fileID: 2100000, guid: dabf8adb2c3852944bebf6ea4cfa3ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWBO_ConsoleMat
+    second: {fileID: 2100000, guid: 7e1f412c96e532848bb993879e3bfd0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWOMat
+    second: {fileID: 2100000, guid: d9d673a1fd4027b4f91eb80422fc6b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWO_Bridge_Tactical_PositionMat
+    second: {fileID: 2100000, guid: 23e02e245f52b954cb4d84040d6b118e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PWO_ConsoleMat
+    second: {fileID: 2100000, guid: ec84fbfb4938bdd4b981047339c456d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portside_BottomMat
+    second: {fileID: 2100000, guid: aa53220f2f2e2a54da7c31d6c7e777cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portside_TopsideMat
+    second: {fileID: 2100000, guid: 5975ab635f7dc454c9e5bcf08c312d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SO_ConsoleMat
+    second: {fileID: 2100000, guid: cce79c836dea28a4faadf282ad0ac4f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SO_Console_2Mat
+    second: {fileID: 2100000, guid: 05637cf0fb42a8741a5de3e758b4e437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SPS_ConsoleMat
+    second: {fileID: 2100000, guid: c7c8d0dd54a2ea0498b3ffff0ad66306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Bulkhead_1Mat
+    second: {fileID: 2100000, guid: a044b13c2b4663c40b05b402e3cb6e8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Bulkhead_2Mat
+    second: {fileID: 2100000, guid: 05ad9c9925c4d6d44829dfe5e6a695e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Bulkhead_3Mat
+    second: {fileID: 2100000, guid: 5b800a474bc76e34b9cfb8b38e774a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Bulkhead_4Mat
+    second: {fileID: 2100000, guid: 26e5f30f32e58ec47b45ca9a8de39da3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SWBOMat
+    second: {fileID: 2100000, guid: 4633f65d15e6c5545ab305e7634f7bf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SWBO_001Mat
+    second: {fileID: 2100000, guid: 06c59f4ed891e154390ee3b61b429447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SWBO_ConsoleMat
+    second: {fileID: 2100000, guid: d98d779a6dbc9a749b8adc0e0955a90b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sonar_OperatorMat
+    second: {fileID: 2100000, guid: 59c763a2fd4629c4e990897dd53335ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sonar_Operator_2Mat
+    second: {fileID: 2100000, guid: 92a5d88ba77f08c429999daee96c10d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sonar_Picture_SupervisorMat
+    second: {fileID: 2100000, guid: 554e3ae57aae20b49b656cceaab5f47b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairwell_1Mat
+    second: {fileID: 2100000, guid: c1c90a2837cee724d8d20298ca31d1db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairwell_2Mat
+    second: {fileID: 2100000, guid: 06532d9d6f63cb54db0766e2e4437969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairwell_4Mat
+    second: {fileID: 2100000, guid: c7454a13ff8f2f347af664e13e3b96e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Starboard_BottomMat
+    second: {fileID: 2100000, guid: 5d416bb7ccb8bb84f8ddf8f290cab1ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Starboard_TopsideMat
+    second: {fileID: 2100000, guid: 4eeeae066ce1d0d488cb66b422e4f005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StemMat
+    second: {fileID: 2100000, guid: 1604547b5a9c981489bb973e4f0a1921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Decks_Deck_01Mat
+    second: {fileID: 2100000, guid: 9be834e82eae21544a1a80fca335b991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Decks_Deck_02Mat
+    second: {fileID: 2100000, guid: 3c25de0a8868b1a46adbf4bbd22b9cb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Aft_WallMat
+    second: {fileID: 2100000, guid: c82a152f25d88b245865a1326ec16162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Bridge_Foward_WallMat
+    second: {fileID: 2100000, guid: 57f3fef63115702478c9496b70e9bab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Bridge_Portside_AngleMat
+    second: {fileID: 2100000, guid: a6ae1a53b613bba4c9e98eee67fa0c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Bridge_Starboard_AngleMat
+    second: {fileID: 2100000, guid: 45d8361d6352e094295ac354b58cf4fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_CeilingMat
+    second: {fileID: 2100000, guid: d9a562d815191e9469e554f546e9ae40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Deck_01_Starboard_WallMat
+    second: {fileID: 2100000, guid: b9d8ecbd7f28a3e44b3329f386ae03ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Deck_02_Portside_WallMat
+    second: {fileID: 2100000, guid: e79b76b539d24094cba64e52631275a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Forward_WallMat
+    second: {fileID: 2100000, guid: ca34bab03c4e6e04289de407ea2a8c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Main_DeckMat
+    second: {fileID: 2100000, guid: ceaa7e70f8159ce4da8215fbac69649c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Portside_WallMat
+    second: {fileID: 2100000, guid: 7d99a6bb80cf5f14a91dbfcac5f71eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Super_Structure_Outer_Frame_Starboard_WallMat
+    second: {fileID: 2100000, guid: 59df9b4c421593c4ca9ab33315a569d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surface_PO_ConsoleMat
+    second: {fileID: 2100000, guid: 18a36a64f710aba42a07294a4eec61fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surface_Picture_SupervisorMat
+    second: {fileID: 2100000, guid: 808a8e9d8ca1576459059fa9844f1cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TPS_Link_ManagerMat
+    second: {fileID: 2100000, guid: 0ff2728442ddcad4e929fcb832247e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Urea_Tank_1Mat
+    second: {fileID: 2100000, guid: f0fed6c2d57f3184bb732130e7324d50, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -563,12 +1103,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -576,22 +1119,30 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

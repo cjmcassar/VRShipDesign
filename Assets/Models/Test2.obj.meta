@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 573e7730d849c4641b9b309d5beba08a
-timeCreated: 1550766098
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CLARK_Internals_49
     100002: CLARK_Internals_50
@@ -247,10 +245,252 @@ ModelImporter:
     4300090: CLARK_Internals_94
     4300092: CLARK_Internals_95
     4300094: CLARK_Internals_96
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_49Mat
+    second: {fileID: 2100000, guid: d6562a5bddea69244a68b58dbfa58eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_50Mat
+    second: {fileID: 2100000, guid: b156534b1ceebf74db90121456a15e11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_51Mat
+    second: {fileID: 2100000, guid: 7fe8215f7588fec41a1b6f09acf43c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_52Mat
+    second: {fileID: 2100000, guid: 8c43002c487eb58408c44d88600ee834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_53Mat
+    second: {fileID: 2100000, guid: fa3cf10a769bdf845a208f8b34832a4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_54Mat
+    second: {fileID: 2100000, guid: cbb88a84120831b4b97dd3b560c57b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_55Mat
+    second: {fileID: 2100000, guid: 71f5f8c7581cb014a9a6aa14ab073e42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_56Mat
+    second: {fileID: 2100000, guid: e5e14c70dd6faad49b2fee0027663b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_57Mat
+    second: {fileID: 2100000, guid: 2beae0bcb5f961543ad0dada4b9b4399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_58Mat
+    second: {fileID: 2100000, guid: dbf3b2cc522dfe4409798c2b8886a65b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_59Mat
+    second: {fileID: 2100000, guid: e2ff2d2b3fe3e004198ad6e200e7518e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_60Mat
+    second: {fileID: 2100000, guid: 766df965ca2ddd64a8abe22543ccdaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_61Mat
+    second: {fileID: 2100000, guid: 638092a31b94f3d4ea7cd0dc2aa6c7ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_62Mat
+    second: {fileID: 2100000, guid: 3c957cb0b288f4943a117ede47775599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_63Mat
+    second: {fileID: 2100000, guid: 038585fd3b1215c419145fd87d3ef994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_64Mat
+    second: {fileID: 2100000, guid: 22d490010d3b60642b9fcb1bf5d11d4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_65Mat
+    second: {fileID: 2100000, guid: 2db140c58a3b95c41ab2b181c1ba368f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_66Mat
+    second: {fileID: 2100000, guid: acd0b1f3162b5134f8d89613f38c17a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_67Mat
+    second: {fileID: 2100000, guid: 9415d670e814c4b458699e3d4320ba27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_68Mat
+    second: {fileID: 2100000, guid: da506b10a5bca4641b749acb0f6ad6af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_69Mat
+    second: {fileID: 2100000, guid: 00b3b9730a3852b4db30ca52206506d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_70Mat
+    second: {fileID: 2100000, guid: 336d03803192e0040bfd715bfbc0e697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_71Mat
+    second: {fileID: 2100000, guid: 7463a5337671dfe46906f6decca04915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_72Mat
+    second: {fileID: 2100000, guid: 6363bae5b74120e4eb6d2b7a6accac9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_73Mat
+    second: {fileID: 2100000, guid: 69486ee43d2715643ac58236293dff95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_74Mat
+    second: {fileID: 2100000, guid: ad043aa5538b4d7468903bcd0fbb3964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_75Mat
+    second: {fileID: 2100000, guid: 11c0a28c50ca76a49866a1941bc7c809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_76Mat
+    second: {fileID: 2100000, guid: 93cfe3406151a1641be4d2938160a8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_77Mat
+    second: {fileID: 2100000, guid: 50a326b64e583bf4391b83e0376c514c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_78Mat
+    second: {fileID: 2100000, guid: 004bd3b8e834cfd428b12ddad2946288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_79Mat
+    second: {fileID: 2100000, guid: a626d69308af3654ba2ac3a301c9ca4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_80Mat
+    second: {fileID: 2100000, guid: f6626e0140fcc0e4189426de2c6dce2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_81Mat
+    second: {fileID: 2100000, guid: bc7b465910efabe479b57ba4e04e2777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_82Mat
+    second: {fileID: 2100000, guid: 64f60adf69039d549a7b092c33ccd3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_83Mat
+    second: {fileID: 2100000, guid: ebc8e3b9b30570048977eabbfb02a005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_84Mat
+    second: {fileID: 2100000, guid: 21d7afb4f48d7d048bf36c2070890b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_85Mat
+    second: {fileID: 2100000, guid: ccfc6c684e75afb4294ee8925c574118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_86Mat
+    second: {fileID: 2100000, guid: 46c9bc4879961104f9c5317c0bc75b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_87Mat
+    second: {fileID: 2100000, guid: e482f92e7cb46bd409a8cde11735550b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_88Mat
+    second: {fileID: 2100000, guid: 40d70fc277ef2db4ca827a0e5d186a36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_89Mat
+    second: {fileID: 2100000, guid: 828a4e9c43a0d2549af77bdb5c43e030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_90Mat
+    second: {fileID: 2100000, guid: 95e01a3e8e31bba46a7bddbaf1fe3bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_91Mat
+    second: {fileID: 2100000, guid: d90b218ba2fd2d74eaa137e693a5ea2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_92Mat
+    second: {fileID: 2100000, guid: 22efa3863498f2c4b8f784116d4cd3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_93Mat
+    second: {fileID: 2100000, guid: 4fbcca6f90e00d545a876132b8814303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_94Mat
+    second: {fileID: 2100000, guid: 60255dd0417a21245893a1a377fdcd79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_95Mat
+    second: {fileID: 2100000, guid: e943244369acb5a4e998ff96ff547941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLARK_Internals_96Mat
+    second: {fileID: 2100000, guid: aa9d12f128dba8a46a94a0ad5df3ff02, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -263,12 +503,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -276,22 +519,30 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
