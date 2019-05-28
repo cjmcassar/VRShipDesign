@@ -5473,9 +5473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29176b900a23ce45ac2a8aed2923034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1588926710586234}
   ObjectToHide: {fileID: 0}
-  INS: {fileID: 0}
+  INS: {fileID: 100000, guid: 594510b0d9d2d1c47a48f4260d35351b, type: 3}
   INSClone: {fileID: 0}
 --- !u!114 &114262171481631270
 MonoBehaviour:
@@ -7875,9 +7875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f182de7a5e3c9414e8c71dfdff3fa797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1588926710586234}
   ObjectToHide: {fileID: 0}
-  SixFoot: {fileID: 0}
+  SixFoot: {fileID: 100000, guid: d97dbb6d25f961340942d4a73a8bcc3f, type: 3}
   SixFootClone: {fileID: 0}
 --- !u!114 &114775846090238120
 MonoBehaviour:

@@ -15,9 +15,9 @@ public class InstantiateEquipment : MonoBehaviour {
     public GameObject INSClone;
     public void UploadINS()
     {
-        INS = Resources.Load("NameOfEquipmentorAvatar", typeof(GameObject)) as GameObject;
+        INS = Resources.Load("INS (Base)", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(INS);
-        INSClone = GameObject.Find("INS(Clone)");
+        INSClone = GameObject.Find("INS (Base)(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         INSClone.transform.position = controller.transform.position;

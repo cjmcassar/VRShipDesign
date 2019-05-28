@@ -15,7 +15,7 @@ public class InstantiateAvatars : MonoBehaviour {
     public GameObject SixFootClone;
     public void UploadSF()
     {
-        SixFoot = Resources.Load("NameOfEquipmentorAvatar", typeof(GameObject)) as GameObject;
+        SixFoot = Resources.Load("Base Mesh sculpt 2", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(SixFoot);
         SixFootClone = GameObject.Find("INS(Clone)");
 
