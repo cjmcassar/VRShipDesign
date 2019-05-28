@@ -120,11 +120,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224752804703498010, guid: 05c5541cb7dc85e40b738402c26b5300,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4068465080707940, guid: 05c5541cb7dc85e40b738402c26b5300, type: 2}
       propertyPath: m_LocalPosition.x
       value: 23.81
@@ -187,6 +182,11 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224752804703498010, guid: 05c5541cb7dc85e40b738402c26b5300,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224917581650724364, guid: 05c5541cb7dc85e40b738402c26b5300,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -457,10 +457,6 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1415664591124668, guid: 05c5541cb7dc85e40b738402c26b5300, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 224655735984771238, guid: 05c5541cb7dc85e40b738402c26b5300,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -491,34 +487,9 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114261725887203096, guid: 05c5541cb7dc85e40b738402c26b5300,
-        type: 2}
-      propertyPath: INS
-      value: 
-      objectReference: {fileID: 100000, guid: 594510b0d9d2d1c47a48f4260d35351b, type: 3}
-    - target: {fileID: 114261725887203096, guid: 05c5541cb7dc85e40b738402c26b5300,
-        type: 2}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 459892956}
-    - target: {fileID: 114771174669365688, guid: 05c5541cb7dc85e40b738402c26b5300,
-        type: 2}
-      propertyPath: SixFoot
-      value: 
-      objectReference: {fileID: 100000, guid: d97dbb6d25f961340942d4a73a8bcc3f, type: 3}
-    - target: {fileID: 114771174669365688, guid: 05c5541cb7dc85e40b738402c26b5300,
-        type: 2}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 459892956}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05c5541cb7dc85e40b738402c26b5300, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &459892956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1588926710586234, guid: 05c5541cb7dc85e40b738402c26b5300,
-    type: 2}
-  m_PrefabInternal: {fileID: 459892955}
 --- !u!1001 &488870893
 Prefab:
   m_ObjectHideFlags: 0

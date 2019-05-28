@@ -19,7 +19,7 @@ public class InstantiateEquipment : MonoBehaviour {
         GameObject.Instantiate(INS);
         INSClone = GameObject.Find("INS (Base)(Clone)");
 
-        controller = GameObject.Find("Controller (left)");
-        INSClone.transform.position = controller.transform.position;
+        //controller = GameObject.Find("Controller (left)");
+        //INSClone.transform.position = controller.transform.position;
     }
 }
