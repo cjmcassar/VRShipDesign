@@ -113,6 +113,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &205855671
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1140925995}
+    m_Modifications:
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 49.447754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 69.68056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -80.08187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856986315105720, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 513ac57cd7f81ab448852b7d63f46e81, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &459892955
 Prefab:
   m_ObjectHideFlags: 0
@@ -563,6 +605,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abaffaae67b72bf4b99e6da1fbbc7e3e, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &1140925995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4068465080707940, guid: 05c5541cb7dc85e40b738402c26b5300,
+    type: 2}
+  m_PrefabInternal: {fileID: 459892955}
 --- !u!1001 &1167769332
 Prefab:
   m_ObjectHideFlags: 0
