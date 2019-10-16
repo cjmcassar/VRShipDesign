@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DrawLineManager : MonoBehaviour
 {
 
@@ -47,7 +48,7 @@ public class DrawLineManager : MonoBehaviour
         else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
         {
             numClicks = 0;
-            currLine = null;
+            //currLine = null;
         }
 
 
