@@ -16,9 +16,9 @@ public class GameHandler : MonoBehaviour {
     {
         SteamVR_Controller.Device device = SteamVR_Controller.Input((int)trackedObj.index);
 
-        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
+        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Grip))
         {
-            ScreenshotHandler.TakeScreenshot_Static(500, 500);
+            ScreenshotHandler.TakeScreenshot_Static(800, 800);
         }
 	}
 }
