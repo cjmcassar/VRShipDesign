@@ -1844,7 +1844,9 @@ GameObject:
   - component: {fileID: 4907983804148774}
   - component: {fileID: 20110919402300764}
   - component: {fileID: 124750952653154616}
-  - component: {fileID: 114351405572132834}
+  - component: {fileID: 114063468787790396}
+  - component: {fileID: 114621125420748514}
+  - component: {fileID: 114420192178820400}
   m_Layer: 0
   m_Name: Camera (eye)
   m_TagString: MainCamera
@@ -8007,6 +8009,18 @@ MonoBehaviour:
   m_Text: 'Scrolly
 
 '
+--- !u!114 &114063468787790396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477775252583316}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77144f000d19944c9504962175182a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedObj: {fileID: 114701804049719646}
 --- !u!114 &114063620008560284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9677,20 +9691,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Select an SDK Setup
---- !u!114 &114351405572132834
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477775252583316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _head: {fileID: 4691157704496650}
-  _ears: {fileID: 4748387492431226}
-  wireframe: 0
 --- !u!114 &114353226506777162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10058,6 +10058,20 @@ MonoBehaviour:
   m_Text: 'Scrolly
 
 '
+--- !u!114 &114420192178820400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477775252583316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _head: {fileID: 4691157704496650}
+  _ears: {fileID: 4748387492431226}
+  wireframe: 0
 --- !u!114 &114428413399725520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11049,6 +11063,17 @@ MonoBehaviour:
   m_Text: 'Scrolly
 
 '
+--- !u!114 &114621125420748514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477775252583316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92f8879b50ca0d4f8482712347209fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114624250836162474
 MonoBehaviour:
   m_ObjectHideFlags: 1
