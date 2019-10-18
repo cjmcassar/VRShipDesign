@@ -28,7 +28,7 @@ public class DrawLineManager : MonoBehaviour
             currLine = go.AddComponent<MeshLineRenderer>();
 
             currLine.lmat = new Material (lMat);
-            currLine.setWidth (.1f);
+            currLine.setWidth (.01f);
 
             numClicks = 0;
         }
