@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: d97dbb6d25f961340942d4a73a8bcc3f
+guid: 02eecb72f0b609e4fbed14d382c320ea
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: defaultMat
-    2300000: default
-    3300000: default
-    4300000: default
-    2186277476908879412: ImportLogs
+    100000: 3DGeom~275
+    100002: 3DGeom~276
+    100004: //RootNode
+    400000: 3DGeom~275
+    400002: 3DGeom~276
+    400004: //RootNode
+    2100000: 3DGeom~275Mat
+    2100002: 3DGeom~276Mat
+    2300000: 3DGeom~275
+    2300002: 3DGeom~276
+    3300000: 3DGeom~275
+    3300002: 3DGeom~276
+    4300000: 3DGeom~275
+    4300002: 3DGeom~276
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,7 +48,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.25
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -67,7 +72,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
