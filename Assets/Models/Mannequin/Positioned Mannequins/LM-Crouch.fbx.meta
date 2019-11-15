@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 8df95dba7e57444408008cef90cbd225
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body_1
+    100002: Body_10
+    100004: Body_11
+    100006: Body_12
+    100008: Body_13
+    100010: Body_14
+    100012: Body_15
+    100014: Body_16
+    100016: Body_17
+    100018: Body_18
+    100020: Body_19
+    100022: Body_2
+    100024: Body_20
+    100026: Body_21
+    100028: Body_22
+    100030: Body_23
+    100032: Body_24
+    100034: Body_25
+    100036: Body_26
+    100038: Body_27
+    100040: Body_28
+    100042: Body_29
+    100044: Body_3
+    100046: Body_30
+    100048: Body_31
+    100050: Body_4
+    100052: Body_5
+    100054: Body_6
+    100056: Body_7
+    100058: Body_8
+    100060: Body_9
+    100062: Default Camera 1
+    100064: Ground
+    100066: Largest Male - Crouch
+    100068: //RootNode
+    400000: Body_1
+    400002: Body_10
+    400004: Body_11
+    400006: Body_12
+    400008: Body_13
+    400010: Body_14
+    400012: Body_15
+    400014: Body_16
+    400016: Body_17
+    400018: Body_18
+    400020: Body_19
+    400022: Body_2
+    400024: Body_20
+    400026: Body_21
+    400028: Body_22
+    400030: Body_23
+    400032: Body_24
+    400034: Body_25
+    400036: Body_26
+    400038: Body_27
+    400040: Body_28
+    400042: Body_29
+    400044: Body_3
+    400046: Body_30
+    400048: Body_31
+    400050: Body_4
+    400052: Body_5
+    400054: Body_6
+    400056: Body_7
+    400058: Body_8
+    400060: Body_9
+    400062: Default Camera 1
+    400064: Ground
+    400066: Largest Male - Crouch
+    400068: //RootNode
+    2000000: Default Camera 1
+    2100000: Mtl
+    2300000: Body_1
+    2300002: Body_10
+    2300004: Body_11
+    2300006: Body_12
+    2300008: Body_13
+    2300010: Body_14
+    2300012: Body_15
+    2300014: Body_16
+    2300016: Body_17
+    2300018: Body_18
+    2300020: Body_19
+    2300022: Body_2
+    2300024: Body_20
+    2300026: Body_21
+    2300028: Body_22
+    2300030: Body_23
+    2300032: Body_24
+    2300034: Body_25
+    2300036: Body_26
+    2300038: Body_27
+    2300040: Body_28
+    2300042: Body_29
+    2300044: Body_3
+    2300046: Body_30
+    2300048: Body_31
+    2300050: Body_4
+    2300052: Body_5
+    2300054: Body_6
+    2300056: Body_7
+    2300058: Body_8
+    2300060: Body_9
+    3300000: Body_1
+    3300002: Body_10
+    3300004: Body_11
+    3300006: Body_12
+    3300008: Body_13
+    3300010: Body_14
+    3300012: Body_15
+    3300014: Body_16
+    3300016: Body_17
+    3300018: Body_18
+    3300020: Body_19
+    3300022: Body_2
+    3300024: Body_20
+    3300026: Body_21
+    3300028: Body_22
+    3300030: Body_23
+    3300032: Body_24
+    3300034: Body_25
+    3300036: Body_26
+    3300038: Body_27
+    3300040: Body_28
+    3300042: Body_29
+    3300044: Body_3
+    3300046: Body_30
+    3300048: Body_31
+    3300050: Body_4
+    3300052: Body_5
+    3300054: Body_6
+    3300056: Body_7
+    3300058: Body_8
+    3300060: Body_9
+    4300000: Body_1
+    4300002: Body_2
+    4300004: Body_3
+    4300006: Body_4
+    4300008: Body_5
+    4300010: Body_6
+    4300012: Body_7
+    4300014: Body_8
+    4300016: Body_9
+    4300018: Body_10
+    4300020: Body_11
+    4300022: Body_12
+    4300024: Body_13
+    4300026: Body_14
+    4300028: Body_15
+    4300030: Body_16
+    4300032: Body_17
+    4300034: Body_18
+    4300036: Body_19
+    4300038: Body_20
+    4300040: Body_21
+    4300042: Body_22
+    4300044: Body_23
+    4300046: Body_24
+    4300048: Body_25
+    4300050: Body_26
+    4300052: Body_27
+    4300054: Body_28
+    4300056: Body_29
+    4300058: Body_30
+    4300060: Body_31
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
