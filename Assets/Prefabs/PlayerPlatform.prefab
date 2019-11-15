@@ -8111,9 +8111,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
-
-'
+  m_Text: Large Male (Crouch)
 --- !u!114 &114063468787790396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8277,9 +8275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Six Foot (Standing)
-
-'
+  m_Text: Large Male (Casual)
 --- !u!114 &114077694627463186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8767,7 +8763,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
+  m_Text: 'Medium Male (Seated)
+
 
 '
 --- !u!114 &114182277963185072
@@ -9018,7 +9015,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
+  m_Text: 'Medium Male (Crouch)
+
 
 '
 --- !u!114 &114224737398407712
@@ -10359,9 +10357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
-
-'
+  m_Text: Large Male (Seated)
 --- !u!114 &114420192178820400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11125,7 +11121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
+  m_Text: 'Small Female (Casual)
 
 '
 --- !u!114 &114551410724262018
@@ -11448,9 +11444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
-
-'
+  m_Text: Small Female (Seated)
 --- !u!114 &114621125420748514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12683,9 +12677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
-
-'
+  m_Text: Small Female (Crouch)
 --- !u!114 &114810559988529310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13890,7 +13882,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrolly
+  m_Text: 'Medium Male (Casual)
 
 '
 --- !u!114 &114999262729503536
