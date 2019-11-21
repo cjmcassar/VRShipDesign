@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 594510b0d9d2d1c47a48f4260d35351b
+guid: 0ca9b6ddb43906e40a59ff9721fc785c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: INS_2S
+    100002: Stairwell_4
     400000: //RootNode
-    400002: INS_2S
-    2100000: INS_2SMat
-    2300000: INS_2S
-    3300000: INS_2S
-    4300000: INS_2S
+    400002: Stairwell_4
+    2100000: Stairwell_4Mat
+    2300000: Stairwell_4
+    3300000: Stairwell_4
+    4300000: Stairwell_4
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +66,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

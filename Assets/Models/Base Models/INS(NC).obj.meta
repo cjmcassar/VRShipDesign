@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 594510b0d9d2d1c47a48f4260d35351b
+guid: 812d0df9077bada49b405d5fd1a54adf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -66,7 +66,7 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
