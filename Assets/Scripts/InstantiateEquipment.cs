@@ -33,7 +33,7 @@ public class InstantiateEquipment : MonoBehaviour {
     {
         INS = Resources.Load("INS", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(INS);
-        INSClone = GameObject.Find("INS (Clone)");
+        INSClone = GameObject.Find("INS(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         INSClone.transform.position = controller.transform.position;
@@ -43,7 +43,7 @@ public class InstantiateEquipment : MonoBehaviour {
     {
         Stairwell = Resources.Load("Stairwell", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(Stairwell);
-        Stairwell = GameObject.Find("Stairwell (Clone)");
+        StairwellClone = GameObject.Find("Stairwell(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         StairwellClone.transform.position = controller.transform.position;
@@ -53,7 +53,7 @@ public class InstantiateEquipment : MonoBehaviour {
     {
         Chair = Resources.Load("Chair", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(Chair);
-        Chair = GameObject.Find("Chair (Clone)");
+        ChairClone = GameObject.Find("Chair(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         ChairClone.transform.position = controller.transform.position;
@@ -63,7 +63,7 @@ public class InstantiateEquipment : MonoBehaviour {
     {
         Toolbox = Resources.Load("Toolbox", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(Toolbox);
-        Toolbox = GameObject.Find("Toolbox (Clone)");
+        ToolboxClone = GameObject.Find("Toolbox(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         ToolboxClone.transform.position = controller.transform.position;
@@ -73,7 +73,7 @@ public class InstantiateEquipment : MonoBehaviour {
     {
         Engine = Resources.Load("Engine", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(Engine);
-        Engine = GameObject.Find("Engine (Clone)");
+        EngineClone = GameObject.Find("Engine(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         EngineClone.transform.position = controller.transform.position;

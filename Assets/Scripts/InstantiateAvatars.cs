@@ -44,16 +44,6 @@ public class InstantiateAvatars : MonoBehaviour {
     public GameObject SFSeatedClone;
 
 
-    public void UploadSF()
-    {
-        SixFoot = Resources.Load("Base Mesh sculpt 2", typeof(GameObject)) as GameObject;
-        GameObject.Instantiate(SixFoot);
-        SixFootClone = GameObject.Find("INS(Clone)");
-
-        controller = GameObject.Find("Controller (left)");
-        SixFootClone.transform.position = controller.transform.position;
-    }
-
     public void UploadLMCasual()
     {
         LMCasual = Resources.Load("LM-Casual", typeof(GameObject)) as GameObject;
