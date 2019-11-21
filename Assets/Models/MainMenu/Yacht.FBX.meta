@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: f1b731bf81bb67a4f8a80d057b6beb24
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box07
+    100002: Curve04
+    100004: Curve05
+    100006: Curve06
+    100008: Curve07
+    100010: Cylinder01
+    100012: Cylinder02
+    100014: Cylinder03
+    100016: Cylinder04
+    100018: Cylinder05
+    100020: Cylinder06
+    100022: Cylinder12
+    100024: Line01
+    100026: Line02
+    100028: Line03
+    100030: Line04
+    100032: Line05
+    100034: Line06
+    100036: Line07
+    100038: Object01
+    100040: Object02
+    100042: Object03
+    100044: PhotometricLight01
+    100046: PhotometricLight04
+    100048: PhotometricLight06
+    100050: PhotometricLight08
+    100052: PhotometricLight09
+    100054: PhotometricLight10
+    100056: PhotometricLight11
+    100058: PhotometricLight13
+    100060: Pult
+    100062: Rul
+    100064: Rupka
+    100066: Shape01
+    100068: Shape03
+    100070: Shturval
+    100072: Shturval1
+    100074: StraightStair01
+    100076: StraightStair01.LeftRail
+    100078: StraightStair02
+    100080: StraightStair02.LeftRail
+    100082: StraightStair02.RightRail
+    100084: WRectangle01
+    100086: WRectangle02
+    100088: WRectangle03
+    100090: //RootNode
+    400000: Box07
+    400002: Curve04
+    400004: Curve05
+    400006: Curve06
+    400008: Curve07
+    400010: Cylinder01
+    400012: Cylinder02
+    400014: Cylinder03
+    400016: Cylinder04
+    400018: Cylinder05
+    400020: Cylinder06
+    400022: Cylinder12
+    400024: Line01
+    400026: Line02
+    400028: Line03
+    400030: Line04
+    400032: Line05
+    400034: Line06
+    400036: Line07
+    400038: Object01
+    400040: Object02
+    400042: Object03
+    400044: PhotometricLight01
+    400046: PhotometricLight04
+    400048: PhotometricLight06
+    400050: PhotometricLight08
+    400052: PhotometricLight09
+    400054: PhotometricLight10
+    400056: PhotometricLight11
+    400058: PhotometricLight13
+    400060: Pult
+    400062: Rul
+    400064: Rupka
+    400066: Shape01
+    400068: Shape03
+    400070: Shturval
+    400072: Shturval1
+    400074: StraightStair01
+    400076: StraightStair01.LeftRail
+    400078: StraightStair02
+    400080: StraightStair02.LeftRail
+    400082: StraightStair02.RightRail
+    400084: WRectangle01
+    400086: WRectangle02
+    400088: WRectangle03
+    400090: //RootNode
+    2100000: 13 - Default
+    2100002: 12 - Default
+    2100004: 02 - Default
+    2100006: Metal_ChromeFast
+    2100008: 03 - Default
+    2100010: 'Material #32'
+    2100012: 3434
+    2100014: 'Material #225'
+    2100016: 05 - Default
+    2100018: No Name
+    2100020: 07 - Default
+    2100022: 01 - Default
+    2100024: 'Material #91'
+    2300000: Box07
+    2300002: Curve04
+    2300004: Curve05
+    2300006: Curve06
+    2300008: Curve07
+    2300010: Cylinder01
+    2300012: Cylinder02
+    2300014: Cylinder03
+    2300016: Cylinder04
+    2300018: Cylinder05
+    2300020: Cylinder06
+    2300022: Cylinder12
+    2300024: Line01
+    2300026: Line05
+    2300028: Object01
+    2300030: Object02
+    2300032: Object03
+    2300034: Pult
+    2300036: Rul
+    2300038: Rupka
+    2300040: Shape01
+    2300042: Shape03
+    2300044: Shturval
+    2300046: Shturval1
+    2300048: StraightStair01
+    2300050: StraightStair02
+    2300052: WRectangle01
+    2300054: WRectangle02
+    2300056: WRectangle03
+    3300000: Box07
+    3300002: Curve04
+    3300004: Curve05
+    3300006: Curve06
+    3300008: Curve07
+    3300010: Cylinder01
+    3300012: Cylinder02
+    3300014: Cylinder03
+    3300016: Cylinder04
+    3300018: Cylinder05
+    3300020: Cylinder06
+    3300022: Cylinder12
+    3300024: Line01
+    3300026: Line05
+    3300028: Object01
+    3300030: Object02
+    3300032: Object03
+    3300034: Pult
+    3300036: Rul
+    3300038: Rupka
+    3300040: Shape01
+    3300042: Shape03
+    3300044: Shturval
+    3300046: Shturval1
+    3300048: StraightStair01
+    3300050: StraightStair02
+    3300052: WRectangle01
+    3300054: WRectangle02
+    3300056: WRectangle03
+    4300000: Box07
+    4300002: StraightStair01
+    4300004: Cylinder01
+    4300006: Cylinder02
+    4300008: Shturval
+    4300010: Shturval1
+    4300012: Pult
+    4300014: Line01
+    4300016: Curve04
+    4300018: Curve05
+    4300020: Curve06
+    4300022: Curve07
+    4300024: Cylinder12
+    4300026: Object01
+    4300028: StraightStair02
+    4300030: Cylinder03
+    4300032: Cylinder04
+    4300034: Shape01
+    4300036: WRectangle01
+    4300038: WRectangle03
+    4300040: WRectangle02
+    4300042: Object02
+    4300044: Object03
+    4300046: Cylinder05
+    4300048: Line05
+    4300050: Rupka
+    4300052: Shape03
+    4300054: Rul
+    4300056: Cylinder06
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
