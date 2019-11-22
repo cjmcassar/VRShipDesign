@@ -22,8 +22,13 @@ GameObject:
   - component: {fileID: 33860405724628088}
   - component: {fileID: 23768430595205634}
   - component: {fileID: 114382378869442752}
+  - component: {fileID: 114329220637001334}
   - component: {fileID: 54899833934305006}
-  - component: {fileID: 64695804978265748}
+  - component: {fileID: 65259984842044692}
+  - component: {fileID: 65934750352218184}
+  - component: {fileID: 65851485058642830}
+  - component: {fileID: 65694728803323600}
+  - component: {fileID: 65032379378640210}
   m_Layer: 0
   m_Name: LM-Casual
   m_TagString: Untagged
@@ -38,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1967478637364818}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.919183, y: 16.401796, z: -42.305298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,13 +101,13 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64695804978265748
-MeshCollider:
+--- !u!65 &65032379378640210
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,11 +115,76 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: e3d3ce1ce080b7245b9b1810c12d02b7, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.3501265, y: 0.84667015, z: 0.22140884}
+  m_Center: {x: -0.0017720461, y: 0.062169075, z: 0.012113571}
+--- !u!65 &65259984842044692
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967478637364818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25084198, y: 0.27966177, z: 0.29172957}
+  m_Center: {x: 0.006172478, y: 0.6457551, z: -0.012865365}
+--- !u!65 &65694728803323600
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967478637364818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6364756, y: 0.7548363, z: 0.17732239}
+  m_Center: {x: -0.0032737255, y: -0.77271235, z: 0.032211304}
+--- !u!65 &65851485058642830
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967478637364818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12324762, y: 0.84667015, z: 0.22140884}
+  m_Center: {x: -0.2533402, y: 0.062169075, z: 0.012113571}
+--- !u!65 &65934750352218184
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967478637364818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12324762, y: 0.84667015, z: 0.22140884}
+  m_Center: {x: 0.25334024, y: 0.062169075, z: 0.012113571}
+--- !u!114 &114329220637001334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967478637364818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 1
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
 --- !u!114 &114382378869442752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,7 +206,7 @@ MonoBehaviour:
   validDrop: 1
   grabOverrideButton: 3
   allowedGrabControllers: 1
-  grabAttachMechanicScript: {fileID: 0}
+  grabAttachMechanicScript: {fileID: 114329220637001334}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 1
   holdButtonToUse: 1

@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33842292330531218}
   - component: {fileID: 23354757926718166}
   - component: {fileID: 114843029858733220}
+  - component: {fileID: 114582768536202148}
   - component: {fileID: 54363288886140464}
-  - component: {fileID: 64424836232692434}
   m_Layer: 0
   m_Name: MM-Casual
   m_TagString: Untagged
@@ -96,25 +96,30 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64424836232692434
-MeshCollider:
+--- !u!114 &114582768536202148
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1100590116194204}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 726631cbf08584e46a75e584682e7f44, type: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 1
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
 --- !u!114 &114843029858733220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,7 +141,7 @@ MonoBehaviour:
   validDrop: 1
   grabOverrideButton: 3
   allowedGrabControllers: 1
-  grabAttachMechanicScript: {fileID: 0}
+  grabAttachMechanicScript: {fileID: 114582768536202148}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 1
   holdButtonToUse: 1

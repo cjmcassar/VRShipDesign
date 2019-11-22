@@ -134,6 +134,15 @@ public class InstantiateAvatars : MonoBehaviour {
         SFSeatedClone.transform.position = controller.transform.position;
     }
 
+    public void UploadTestM()
+    {
+        SixFoot = Resources.Load("TestM", typeof(GameObject)) as GameObject;
+        GameObject.Instantiate(SixFoot);
+        SixFootClone = GameObject.Find("TestM(Clone)");
+
+        controller = GameObject.Find("Controller (left)");
+        SixFootClone.transform.position = controller.transform.position;
+    }
 
 
 }
