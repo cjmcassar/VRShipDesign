@@ -128,7 +128,7 @@ public class InstantiateAvatars : MonoBehaviour {
     {
         SFSeated = Resources.Load("SF-Seated", typeof(GameObject)) as GameObject;
         GameObject.Instantiate(SFSeated);
-        MMSeatedClone = GameObject.Find("SF-Seated(Clone)");
+        SFSeatedClone = GameObject.Find("SF-Seated(Clone)");
 
         controller = GameObject.Find("Controller (left)");
         SFSeatedClone.transform.position = controller.transform.position;

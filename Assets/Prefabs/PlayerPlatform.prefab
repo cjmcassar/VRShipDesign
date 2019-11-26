@@ -3299,6 +3299,7 @@ GameObject:
   - component: {fileID: 114030120742370632}
   - component: {fileID: 114982140370044748}
   - component: {fileID: 114954995390192554}
+  - component: {fileID: 114468626794938542}
   m_Layer: 0
   m_Name: RightControllerScriptAlias
   m_TagString: Untagged
@@ -4507,7 +4508,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1242975873590594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 15.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4894623328081986}
@@ -8467,7 +8468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec704cceb26f6f49b6c900fc83d8d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTeleport: 1
+  enableTeleport: 0
   targetListPolicy: {fileID: 114965004959403674}
   pointerRenderer: {fileID: 114218243643381938}
   activationButton: 7
@@ -9300,7 +9301,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1883595381367416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64e104da36bd3b04b90c6ae969ac66dc, type: 3}
   m_Name: 
@@ -9437,6 +9438,21 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &114468626794938542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883595381367416}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eb64f0f2fd6d64faddbcf5d7d3bdbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useButton: 8
+  controllerEvents: {fileID: 114702952621130876}
+  interactTouch: {fileID: 114437050114210748}
+  interactGrab: {fileID: 114030120742370632}
 --- !u!114 &114470190511778194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11372,7 +11388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1588926710586234}
   ObjectToHide: {fileID: 0}
-  SixFoot: {fileID: 1539110960081918, guid: 86d6bd1ddc6d65146b8ed983d6072d29, type: 2}
+  SixFoot: {fileID: 1961357758847476, guid: 19a7f827e0d467d4d81b553fba90f10a, type: 2}
   SixFootClone: {fileID: 0}
   LMCasual: {fileID: 1967478637364818, guid: 98608ff858143d34fac0bfd84f8f533e, type: 2}
   LMCasualClone: {fileID: 0}
@@ -12130,7 +12146,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1883595381367416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fc65878c7102524bb8c2bcfbefff497, type: 3}
   m_Name: 
@@ -12260,11 +12276,11 @@ MonoBehaviour:
   enableTeleport: 1
   targetListPolicy: {fileID: 114965004959403674}
   pointerRenderer: {fileID: 114954995390192554}
-  activationButton: 10
+  activationButton: 7
   holdButtonToActivate: 1
   activateOnEnable: 0
   activationDelay: 0
-  selectionButton: 10
+  selectionButton: 7
   selectOnPress: 0
   selectionDelay: 0
   selectAfterHoverDuration: 0
@@ -12272,7 +12288,7 @@ MonoBehaviour:
   grabToPointerTip: 0
   attachedTo: {fileID: 1883595381367416}
   controllerEvents: {fileID: 114702952621130876}
-  interactUse: {fileID: 0}
+  interactUse: {fileID: 114468626794938542}
   customOrigin: {fileID: 0}
   controller: {fileID: 0}
 --- !u!114 &114982335157926948
