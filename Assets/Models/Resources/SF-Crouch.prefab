@@ -118,8 +118,8 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 1
-  breakForce: 1500
+  destroyImmediatelyOnThrow: 0
+  breakForce: Infinity
 --- !u!114 &114778752972051386
 MonoBehaviour:
   m_ObjectHideFlags: 1

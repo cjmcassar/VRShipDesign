@@ -24,6 +24,11 @@ GameObject:
   - component: {fileID: 114580878838194444}
   - component: {fileID: 114862852162963102}
   - component: {fileID: 54852950860688264}
+  - component: {fileID: 65687823931827872}
+  - component: {fileID: 65990576920054054}
+  - component: {fileID: 65067108025826194}
+  - component: {fileID: 65079561373114346}
+  - component: {fileID: 65783157207888450}
   m_Layer: 0
   m_Name: LM-Crouch
   m_TagString: Untagged
@@ -38,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1002631496363646}
   m_LocalRotation: {x: -0, y: 1, z: -6.123234e-17, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.3074427, y: 15.426045, z: -50.899677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,6 +106,66 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65067108025826194
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002631496363646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45756483, y: 1.0869044, z: 0.31946945}
+  m_Center: {x: -0.004252434, y: 0.20811933, z: 0.026277542}
+--- !u!65 &65079561373114346
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002631496363646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24642146, y: 0.139781, z: 0.4986055}
+  m_Center: {x: 0.18770641, y: 0.043485165, z: 0.4566201}
+--- !u!65 &65687823931827872
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002631496363646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36877036, y: 0.3229195, z: 0.60395813}
+  m_Center: {x: -0.08243346, y: -0.4876278, z: -0.25634766}
+--- !u!65 &65783157207888450
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002631496363646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19635308, y: 0.139781, z: 0.4986055}
+  m_Center: {x: -0.16267222, y: 0.043485165, z: 0.4566201}
+--- !u!65 &65990576920054054
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002631496363646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25818956, y: 0.61340487, z: 0.35313034}
+  m_Center: {x: 0.18182236, y: -0.3423851, z: 0.3730755}
 --- !u!114 &114580878838194444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,5 +215,5 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 1
-  breakForce: 1500
+  destroyImmediatelyOnThrow: 0
+  breakForce: Infinity
